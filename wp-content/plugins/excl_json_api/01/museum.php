@@ -24,7 +24,11 @@ class EXCL_Museum implements iExcl_Type {
 				array( array('tailored-content-categories' => 'tailored_content_categories'), 'force_inherit' => true),
 				array( array('internationalization-message' => 'internationalization_message'), 'force_inherit' => false),
                 array( array('exhibits' => 'exhibits'), 'force_inherit' => true ),
-                array( array('lang_options' => 'lang_options'), 'force_inherit' => true )
+                array( array('lang_options' => 'lang_options'), 'force_inherit' => true ),
+                array( array('homepage-exhibits-label' => 'homepage_exhibits_label'), 'force_inherit' => false ),
+                array( array('homepage-info-label' => 'homepage_info_label'), 'force_inherit' => false ),
+                array( array('homepage-map-label' => 'homepage_map_label'), 'force_inherit' => false ),
+                array( array('homepage-icon' => 'homepage_icon'), 'force_inherit' => true )
 			),
 			'children' => array('exhibit')
 		),
