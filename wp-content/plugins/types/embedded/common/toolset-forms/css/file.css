@@ -1,0 +1,19 @@
+
+.wpt-file-preview img {
+    border: 1px solid #A0A0A0;
+    height: 50px;
+    margin-top: 10px;
+    width: auto;
+}
+.wpt-file .textfield,
+.wpt-image .textfield {
+    width: 70%;
+}
+#media-upload {
+    background: none;
+}
+#media-upload #media-search {
+    height: auto;
+    margin: 0;
+    position: static;
+}

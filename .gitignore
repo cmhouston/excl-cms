@@ -1,0 +1,4 @@
+wordpress/**/vendor
+tests/_output/*
+tests/_data/*
+.idea

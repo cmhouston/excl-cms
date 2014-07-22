@@ -1,0 +1,33 @@
+.tagchecklist {
+    margin-left:65px;
+}
+
+.tagchecklist span {
+    cursor: default;
+    display: block;
+    float: left;
+    font-size: 11px;
+    line-height: 1.8em;
+    margin-right: 25px;
+    white-space: nowrap;
+}
+
+.tagchecklist span a {
+    background: url("../images/xit.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.tagchecklist span a:hover {
+    background: url("../images/xit.gif") no-repeat scroll -10px 0 rgba(0, 0, 0, 0);
+}
+
+.ntdelbutton {
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 10px;
+    margin: 4px 0 0 -10px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+    width: 10px;
+}

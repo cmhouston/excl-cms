@@ -1,0 +1,22 @@
+FIND A WAY TO NOT USE 0s and 1s in clean_post
+	start with :$possible_types_field = types_render_field( "$key", array('post_id' => $post['ID'], 'output' => 'raw') );
+	see if output is anything but 'raw' or html
+research tool that will generate class diagram
+IDE
+change 'transform_WP_object_to_array' name in excl_utility
+Look into removing duplicate get_posts/get_post in wp_logic, wrap WP functions in getandtransformposts method
+Reduce mysql roundtrips
+	Think about way to leverage get_posts
+	Custom queries
+Set up caching layer
+Think about how to make code touch wordpress as little as possible (particularly in logic)
+Break up Transform wordpress object to array function and unit test it
+unit test clean_post
+come up with more descriptive name than "white_list" (filter), children_hierarchy
+$0 -> $prop
+
+Commenting:
+
+url: .../comment
+VERB: POST
+BODY: {"name": "bob", "email": "bob@bot.com", "body": "sdfsadf" }

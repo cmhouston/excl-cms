@@ -1,0 +1,19 @@
+.wpt-skype .button {
+    display: block;
+}
+#wpt-skype-edit-button-popup h3 {
+    clear: both;
+}
+#wpt-skype-edit-button-popup .button-secondary {
+    display: block;
+    clear: both;
+    margin-top: 80px;
+}
+#wpt-skype-edit-button-popup div {
+    float: left;
+    margin-right: 25px;
+}
+#wpt-skype-edit-button-popup input {
+    margin-top: 5px;
+    vertical-align: top;
+}
