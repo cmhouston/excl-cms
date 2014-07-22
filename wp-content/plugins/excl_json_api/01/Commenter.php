@@ -50,7 +50,7 @@ namespace api\v01;
             // log2("made it to method");
 
 
-            $commentId = $this->wordpress->wp_insert_comment($commentdata);
+            $commentId = $this->wordpress->wp_new_comment($commentdata);
             $result = $this->wordpress->get_comment($commentId);
             // log2("comment id", $commentId);
             // log2("result", $result);

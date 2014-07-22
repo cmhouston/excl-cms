@@ -43,6 +43,11 @@ namespace api\v01;
         {
             return wp_insert_comment($param1);
         }
+		
+		public function wp_new_comment($param1)
+        {
+            return wp_new_comment($param1);
+        }
 
         public function wp_update_comment($param1)
         {
