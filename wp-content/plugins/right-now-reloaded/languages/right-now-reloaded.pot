@@ -1,0 +1,95 @@
+# Copyright (C) 2012 Right Now Reloaded
+# This file is distributed under the same license as the Right Now Reloaded package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Right Now Reloaded 2.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/right-now-reloaded\n"
+"POT-Creation-Date: 2012-03-27 04:14:28+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: right-now-reloaded.php:128
+msgid "You are using the %1$s theme"
+msgstr ""
+
+#: right-now-reloaded.php:133
+msgid " on WordPress %1$s"
+msgstr ""
+
+#: right-now-reloaded.php:143
+msgid " with %1$s active plugin"
+msgid_plural " with %1$s active plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: right-now-reloaded.php:148
+msgid " and %1$s registered user"
+msgid_plural " and %1$s registered users"
+msgstr[0] ""
+msgstr[1] ""
+
+#: right-now-reloaded.php:152
+msgid "."
+msgstr ""
+
+#: right-now-reloaded.php:171
+msgid "Widget"
+msgstr ""
+
+#: right-now-reloaded.php:172
+msgid "Widgets"
+msgstr ""
+
+#: right-now-reloaded.php:178
+msgid "Active Menu"
+msgstr ""
+
+#: right-now-reloaded.php:179
+msgid "Active Menus"
+msgstr ""
+
+#: right-now-reloaded.php:207
+msgid "Comment"
+msgstr ""
+
+#: right-now-reloaded.php:208
+msgid "Comments"
+msgstr ""
+
+#: right-now-reloaded.php:221
+msgid "Link Category"
+msgstr ""
+
+#: right-now-reloaded.php:222
+msgid "Link Categories"
+msgstr ""
+
+#: right-now-reloaded.php:229
+msgid "Link"
+msgstr ""
+
+#: right-now-reloaded.php:230
+msgid "Links"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Right Now Reloaded"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A better version of the \"Right Now\" dashboard widget, tailored to show "
+"what's relevant to your site."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Michael Dance"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://mikedance.com"
+msgstr ""

@@ -1,0 +1,51 @@
+table.form-table textarea,
+table.form-table input {
+    width: 100%;
+    padding: 10px;
+}
+table.form-table textarea {
+    height: 150px;
+}
+div#wpscn-notif-adder {
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 1px 2px #dcdcdc;
+    margin: 25px 0;
+    padding: 20px;
+}
+div#wpscn-notif-adder select{
+	margin: 0 5px;
+}
+.wpscn-notif-form-box {
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 1px 2px #c7c7c7;
+    margin: 20px 0;
+}
+.box-head {
+    cursor: pointer;
+}
+.box-head, .box-body {
+    padding: 15px;
+}
+.box-body {
+    border-top: 1px solid #e7e7e7;
+}
+.wpscn-notif-form-box .box-head .title {
+    font-size: 17px;
+    font-weight: bold;
+}
+.wpscn-notif-form-box .box-head .meta {
+    color: #969696;
+    float: right;
+}
+#wpscn-notif-adder .loading-img{
+	display: none;
+}
+#wpscn-settings-section-container input {
+    padding: 10px;
+}
+#wpscn-settings-section-container label {
+    font-weight: bold;
+}
+#wpscn-settings-section-container h2 {
+    margin-bottom: 20px;
+}

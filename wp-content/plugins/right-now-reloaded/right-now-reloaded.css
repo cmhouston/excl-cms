@@ -1,0 +1,60 @@
+#md-rnr-column-primary {
+	float:left;
+	padding-left:10px;
+	width:58%;
+}
+
+#md-rnr-column-secondary {
+	width:34%;
+	float:right;
+	padding-right:10px;
+}
+
+#md-rnr-widget p {
+	padding:0 10px;
+}
+
+#md-rnr-widget h5 {
+	border-bottom:1px solid #ddd;
+	padding:5px 0;
+	margin:5px 0;
+	color:#777;
+    font-family:Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+    font-size:13px;
+    font-style:italic;
+    font-weight:normal;
+}
+
+#md-rnr-widget p a {
+	font:16px Georgia, serif;
+}
+
+#md-rnr-widget td {
+	padding:2px 0;
+}
+
+#md-rnr-widget td.md-rnr-table-number {
+	font:16px Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+	height:20px;
+	padding-right: 7px;
+	text-align: right;
+	vertical-align:baseline;
+}
+
+#md-rnr-widget td.md-rnr-action {
+	padding-right:0;
+	padding-left:2px;
+	white-space:nowrap;
+}
+
+.md-rnr-action a {
+	margin-right:3px;
+}
+
+#md-rnr-widget td + td {
+	text-align:left;
+}
+
+#md-rnr-widget .md-rnr-clear {
+	clear:both;
+}

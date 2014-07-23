@@ -1,0 +1,301 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cbnet Multi-Author Comment Notification\n"
+"POT-Creation-Date: 2014-02-21 19:59-0500\n"
+"PO-Revision-Date: 2014-02-21 19:59-0500\n"
+"Last-Translator: Chip Bennett <chip@chipbennett.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../settings.php:45
+msgid "Site Admin"
+msgstr "Site Admin"
+
+#: ../settings.php:46
+msgid "Send comment notification emails to the site admin email address"
+msgstr "Send comment notification emails to the site admin email address"
+
+#: ../settings.php:52
+msgid "All Administrators"
+msgstr "All Administrators"
+
+#: ../settings.php:53
+msgid "Send comment notification emails to all Administrators"
+msgstr "Send comment notification emails to all Administrators"
+
+#: ../settings.php:59
+msgid "All Editors"
+msgstr "All Editors"
+
+#: ../settings.php:60
+msgid "Send comment notification emails to all Editors"
+msgstr "Send comment notification emails to all Editors"
+
+#: ../settings.php:66
+msgid "All Authors"
+msgstr "All Authors"
+
+#: ../settings.php:67
+msgid "Send comment notification emails to all Authors"
+msgstr "Send comment notification emails to all Authors"
+
+#: ../settings.php:73
+msgid "All Contributors"
+msgstr "All Contributors"
+
+#: ../settings.php:74
+msgid "Send comment notification emails to all Contributors"
+msgstr "Send comment notification emails to all Contributors"
+
+#: ../settings.php:80
+msgid "All Subscribers"
+msgstr "All Subscribers"
+
+#: ../settings.php:81
+msgid "Send comment notification emails to all Subscribers"
+msgstr "Send comment notification emails to all Subscribers"
+
+#: ../settings.php:87
+msgid "Additional Email Addresses"
+msgstr "Additional Email Addresses"
+
+#: ../settings.php:88
+msgid "Send comment notification emails to these additional email addresses"
+msgstr "Send comment notification emails to these additional email addresses"
+
+#: ../settings.php:95
+msgid "Registered-User Comments"
+msgstr "Registered-User Comments"
+
+#: ../settings.php:96
+msgid "Send notification emails for comments from registered users"
+msgstr "Send notification emails for comments from registered users"
+
+#: ../settings.php:102
+msgid "Moderated Comment Notification"
+msgstr "Moderated Comment Notification"
+
+#: ../settings.php:103
+msgid "Send notification emails for comments held for moderation"
+msgstr "Send notification emails for comments held for moderation"
+
+#: ../settings.php:127
+msgid "cbnet Multi-Author Comment Notification Settings"
+msgstr "cbnet Multi-Author Comment Notification Settings"
+
+#: ../settings.php:133
+msgid ""
+"Configure cbnet Multi-Author Comment Notification settings here. These "
+"settings will only apply if the \"Email me whenever\" setting is enabled for "
+"either comment notification or comment modeation."
+msgstr ""
+"Configure cbnet Multi-Author Comment Notification settings here. These "
+"settings will only apply if the \"Email me whenever\" setting is enabled for "
+"either comment notification or comment modeation."
+
+#: ../settings.php:142
+msgid "User Roles"
+msgstr "User Roles"
+
+#: ../settings.php:180
+msgid "Additional Emails"
+msgstr "Additional Emails"
+
+#: ../settings.php:204
+msgid "Miscellaneous"
+msgstr "Miscellaneous"
+
+#: ../custom-user-meta.php:12 ../custom-user-meta.php:17
+msgid "Comment Email Notification"
+msgstr "Comment Email Notification"
+
+#: ../custom-user-meta.php:21
+msgid ""
+"Receive email notification of comments to all posts, regardless of post "
+"author"
+msgstr ""
+"Receive email notification of comments to all posts, regardless of post "
+"author"
+
+#~ msgid "New comment on your post \"%s\""
+#~ msgstr "New comment on your post \"%s\""
+
+#~ msgid "Author : %1$s (IP: %2$s , %3$s)"
+#~ msgstr "Author : %1$s (IP: %2$s , %3$s)"
+
+#~ msgid "E-mail : %s"
+#~ msgstr "E-mail : %s"
+
+#~ msgid "URL    : %s"
+#~ msgstr "URL    : %s"
+
+#~ msgid "Whois  : http://whois.arin.net/rest/ip/%s"
+#~ msgstr "Whois  : http://whois.arin.net/rest/ip/%s"
+
+#~ msgid "Comment: "
+#~ msgstr "Comment: "
+
+#~ msgid "You can see all comments on this post here: "
+#~ msgstr "You can see all comments on this post here: "
+
+#~ msgid "[%1$s] Comment: \"%2$s\""
+#~ msgstr "[%1$s] Comment: \"%2$s\""
+
+#~ msgid "New trackback on your post \"%s\""
+#~ msgstr "New trackback on your post \"%s\""
+
+#~ msgid "Website: %1$s (IP: %2$s , %3$s)"
+#~ msgstr "Website: %1$s (IP: %2$s , %3$s)"
+
+#~ msgid "Excerpt: "
+#~ msgstr "Excerpt: "
+
+#~ msgid "You can see all trackbacks on this post here: "
+#~ msgstr "You can see all trackbacks on this post here: "
+
+#~ msgid "[%1$s] Trackback: \"%2$s\""
+#~ msgstr "[%1$s] Trackback: \"%2$s\""
+
+#~ msgid "New pingback on your post \"%s\""
+#~ msgstr "New pingback on your post \"%s\""
+
+#~ msgid "You can see all pingbacks on this post here: "
+#~ msgstr "You can see all pingbacks on this post here: "
+
+#~ msgid "[%1$s] Pingback: \"%2$s\""
+#~ msgstr "[%1$s] Pingback: \"%2$s\""
+
+#~ msgid "Permalink: %s"
+#~ msgstr "Permalink: %s"
+
+#~ msgid "Trash it: %s"
+#~ msgstr "Trash it: %s"
+
+#~ msgid "Delete it: %s"
+#~ msgstr "Delete it: %s"
+
+#~ msgid "Spam it: %s"
+#~ msgstr "Spam it: %s"
+
+#~ msgid "Configure cbnet Multi-Author Comment Notification settings here."
+#~ msgstr "Configure cbnet Multi-Author Comment Notification settings here."
+
+#~ msgid "Donate"
+#~ msgstr "Donate"
+
+#~ msgid "Posts per page"
+#~ msgstr "Posts per page"
+
+#~ msgid "Order"
+#~ msgstr "Order"
+
+#~ msgid "Order By"
+#~ msgstr "Order By"
+
+#~ msgid "Search Index Page"
+#~ msgstr "Search Index Page"
+
+#~ msgid "Set query options for the Search index page."
+#~ msgstr "Set query options for the Search index page."
+
+#~ msgid "Blog Posts Index Page"
+#~ msgstr "Blog Posts Index Page"
+
+#~ msgid "Set query options for the Blog Posts Index page."
+#~ msgstr "Set query options for the Blog Posts Index page."
+
+#~ msgid "Category Archive Index Page"
+#~ msgstr "Category Archive Index Page"
+
+#~ msgid "Set query options for the Category archive index page."
+#~ msgstr "Set query options for the Category archive index page."
+
+#~ msgid "Tag Archive Index Page"
+#~ msgstr "Tag Archive Index Page"
+
+#~ msgid "Set query options for the Tag archive index page."
+#~ msgstr "Set query options for the Tag archive index page."
+
+#~ msgid "Taxonomy Archive Index Page"
+#~ msgstr "Taxonomy Archive Index Page"
+
+#~ msgid "Set query options for the Taxonomy archive index page."
+#~ msgstr "Set query options for the Taxonomy archive index page."
+
+#~ msgid "Author Archive Index Page"
+#~ msgstr "Author Archive Index Page"
+
+#~ msgid "Set query options for the Author archive index page."
+#~ msgstr "Set query options for the Author archive index page."
+
+#~ msgid "Date Archive Index Page"
+#~ msgstr "Date Archive Index Page"
+
+#~ msgid "Set query options for the Date archive index page."
+#~ msgstr "Set query options for the Date archive index page."
+
+#~ msgid "Archive Index Page"
+#~ msgstr "Archive Index Page"
+
+#~ msgid "Set query options for the default Archive index page."
+#~ msgstr "Set query options for the default Archive index page."
+
+#~ msgid "None"
+#~ msgstr "None"
+
+#~ msgid "Post ID"
+#~ msgstr "Post ID"
+
+#~ msgid "Post Title"
+#~ msgstr "Post Title"
+
+#~ msgid "Post Slug"
+#~ msgstr "Post Slug"
+
+#~ msgid "Post Published Date"
+#~ msgstr "Post Published Date"
+
+#~ msgid "Post Modified Date"
+#~ msgstr "Post Modified Date"
+
+#~ msgid "Random"
+#~ msgstr "Random"
+
+#~ msgid "Post Comment Count"
+#~ msgstr "Post Comment Count"
+
+#~ msgid "Ascending"
+#~ msgstr "Ascending"
+
+#~ msgid "Descending"
+#~ msgstr "Descending"
+
+#~ msgid "Favicon"
+#~ msgstr "Favicon"
+
+#~ msgid "Upload an image to use as the site Favicon."
+#~ msgstr "Upload an image to use as the site Favicon."
+
+#~ msgid "Favicon file type must be one of ICO, PNG, JPEG, or GIF."
+#~ msgstr "Favicon file type must be one of ICO, PNG, JPEG, or GIF."
+
+#~ msgid "Use supported images only."
+#~ msgstr "Use supported images only."
+
+#~ msgid "Image will be used as-is."
+#~ msgstr "Image will be used as-is."
+
+#~ msgid "cbnet Favicon Options"
+#~ msgstr "cbnet Favicon Options"
+
+#~ msgid "Save Settings"
+#~ msgstr "Save Settings"
+
+#~ msgid "Reset Defaults"
+#~ msgstr "Reset Defaults"
