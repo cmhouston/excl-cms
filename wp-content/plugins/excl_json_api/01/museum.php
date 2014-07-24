@@ -14,7 +14,7 @@ class EXCL_Museum implements iExcl_Type {
 				array( array('post_title' => 'name'), 'force_inherit' => false ),
 				array( array('museum-information' => 'description'), 'force_inherit' => false ),
 				array( array('prices' => 'prices'), 'force_inherit' => true ),
-                array( array('map-image' => 'map'), 'force_inherit' => false ),
+                array( array('museum-map' => 'map'), 'force_inherit' => false ),
                 array( array('image' => 'image'), 'force_inherit' => false ),
                 array( array('website' => 'website'), 'force_inherit' => false ),
                 array( array('phone' => 'phone'), 'force_inherit' => true ),
