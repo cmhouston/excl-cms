@@ -6,7 +6,7 @@ Description: Custom JSON endpoints for the ExCL app
 Version: 01
 Author: Pariveda Solutions
 Author URI: http://www.parivedasolutions.com
-License: GPL2
+License: GPLv3
 */
 
 namespace api;
