@@ -14,7 +14,7 @@ class EXCL_Museum implements iExcl_Type {
 				array( array('post_title' => 'name'), 'force_inherit' => false ),
 				array( array('museum-information' => 'description'), 'force_inherit' => false ),
 				array( array('prices' => 'prices'), 'force_inherit' => true ),
-                array( array('map' => 'map'), 'force_inherit' => false ),
+                array( array('map-image' => 'map'), 'force_inherit' => false ),
                 array( array('image' => 'image'), 'force_inherit' => false ),
                 array( array('website' => 'website'), 'force_inherit' => false ),
                 array( array('phone' => 'phone'), 'force_inherit' => true ),
@@ -34,14 +34,14 @@ class EXCL_Museum implements iExcl_Type {
 		),
 		'exhibit' => array(
 			'attributes' => array (
-                    array( array('ID' => 'id'), 'force_inherit' => true ),
-                    array( array('sort-order' => 'sort_order'), 'force_inherit' => true ),
-                    array( array('post_title' => 'name'), 'force_inherit' => false ),
-                    array( array('description' => 'description'), 'force_inherit' => false ),
-                    array( array('long-description' => 'long_description'), 'force_inherit' => false ),
-                    array( array('exhibit_image' => 'exhibit_image'), 'force_inherit' => false ),
-                    array( array('components' => 'components'), 'force_inherit' => true )
-				),
+                array( array('ID' => 'id'), 'force_inherit' => true ),
+                array( array('sort-order' => 'sort_order'), 'force_inherit' => true ),
+                array( array('post_title' => 'name'), 'force_inherit' => false ),
+                array( array('description' => 'description'), 'force_inherit' => false ),
+                array( array('long-description' => 'long_description'), 'force_inherit' => false ),
+                array( array('exhibit_image' => 'exhibit_image'), 'force_inherit' => false ),
+                array( array('components' => 'components'), 'force_inherit' => true )
+			),
 			'children' => array('component')
 		),
 		'component' => array(
