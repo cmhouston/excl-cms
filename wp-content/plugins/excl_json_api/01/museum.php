@@ -28,7 +28,9 @@ class EXCL_Museum implements iExcl_Type {
                 array( array('homepage-exhibits-label' => 'homepage_exhibits_label'), 'force_inherit' => false ),
                 array( array('homepage-info-label' => 'homepage_info_label'), 'force_inherit' => false ),
                 array( array('homepage-map-label' => 'homepage_map_label'), 'force_inherit' => false ),
-                array( array('homepage-icon' => 'homepage_icon'), 'force_inherit' => true )
+                array( array('homepage-icon' => 'homepage_icon'), 'force_inherit' => true ),
+                array( array('exhibit-label' => 'exhibit_label'), 'force_inherit' => true),
+                array( array('exhibit-label-plural' => 'exhibit_label_plural'), 'force_inherit' => true)
 			),
 			'children' => array('exhibit')
 		),
