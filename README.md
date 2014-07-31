@@ -12,7 +12,7 @@ the content management system and the mobile application. We will describe both 
 the Titanium technical details, followed by tips on using a continuous integration build server and 
 deploying to the app stores.
 
-For the WordPress developer documentation, please go [here](docs/developerDocs.md)
+If you are a developer, see the [WordPress developer documentation](docs/developerDocs.md)
 
 ## ExCL Content Management System ##
 
