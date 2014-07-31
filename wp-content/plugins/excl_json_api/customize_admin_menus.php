@@ -5,6 +5,7 @@ function remove_menus(){
   remove_menu_page( 'edit.php?post_type=page' );    //Pages
   remove_menu_page( 'link-manager.php' );			//Links
   remove_menu_page( 'tools.php' );					//Tools
+  remove_menu_page( 'edit.php?post_type=part' );	//Parts
   
 }
 add_action( 'admin_menu', 'remove_menus' );
@@ -17,7 +18,6 @@ function custom_menu_order($menu_ord) {
 		'edit.php?post_type=exhibit',
 		'edit.php?post_type=component',
 		'edit.php?post_type=component-post',
-		'edit.php?post_type=part',
 
 		'separator1', // First separator
 		'edit-comments.php', // Comments
