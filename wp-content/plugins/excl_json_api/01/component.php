@@ -41,21 +41,8 @@ class EXCL_Component implements iExcl_Type {
 				array( array('post-header-type' => 'post_header_type'), 'force_inherit' => true ),
 				array( array('post-header-url' => 'post_header_url'), 'force_inherit' => true )
             ),
-            'children' => array('part'),
+            'children' => array(),
             'name' => 'posts'
-        ),
-        'part' => array(
-            'attributes' => array(
-                array( array('ID' => 'id'), 'force_inherit' => true ),
-                array( array('sort-order' => 'sort_order'), 'force_inherit' => true ),
-                array( array('post_title' => 'name'), 'force_inherit' => false ),
-                array( array('part-type' => 'type'), 'force_inherit' => true ),
-                array( array('part-video' => 'video'), 'force_inherit' => false ),
-                array( array('part-image' => 'image'), 'force_inherit' => false ),
-                array( array('part-body' => 'body'), 'force_inherit' => false ),
-                array( array('part-rich' => 'rich'), 'force_inherit' => false )
-            ),
-            'children' => array()
         )
     );
 
