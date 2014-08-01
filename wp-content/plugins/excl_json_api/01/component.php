@@ -34,7 +34,6 @@ class EXCL_Component implements iExcl_Type {
 				array( array('social-sharing-text' => 'text_sharing'), 'force_inherit' => true ),
                 array( array('default-social-media-message' => 'social_media_message'), 'force_inherit' => false ),
                 array( array('post-image' => 'image'), 'force_inherit' => false ),
-				array( array('parts' => 'parts'), 'force_inherit' => true ),
                 array( array('comments' => 'comments'), 'force_inherit' => true ),
 				array( array('post-preview-text' => 'post_preview_text'), 'force_inherit' => false),
 				array( array('post-body' => 'post_body'), 'force_inherit' => false ),
