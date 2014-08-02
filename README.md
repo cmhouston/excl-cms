@@ -20,7 +20,7 @@ If you are a developer, see the [WordPress developer documentation](docs/develop
 2. Unzip it and copy the contents of the wordpress folder to your web directory
 3. Clone the this repository to anywhere on your harddrive (like My Documents)
 4. _(Optional)_ Set up DSynchronize with the source folder being the wp-content\plugins directory in the cloned repo and the destination folder being {WORDPRESS\_INSTALLATION\_DIRECTORY}\wp-content\plugins directory. Make sure the box by sources is checked and then check "Copy only newer files" and "Create folder if not exists". Click the synchronize button once to make sure that it works, then check the "Realtime sync" box to have it watch the changes and copy them automatically to your wp folder.
-5. Go to http://localhost/{WORDPRESS\_INSTALLATION\_DIRECTORY} in your browser and run the install. Make sure to use the following information for the database credentials
+5. Go to http://localhost/{WORDPRESS\_INSTALLATION\_DIRECTORY} in your browser and run the install.
 
 ### Development ###
 
