@@ -1,4 +1,13 @@
-# Introduction to ExCL #
+# ExCL Developer Documentation #
+
+### Contents ###
+
+1. [Introduction to ExCL](#exclIntro)
+- [WordPress](#wordpress)
+- [Titanium](https://github.com/cmhouston/excl-mobile#titanium)
+
+
+# <a name="exclIntro"></a> Introduction to ExCL #
 ExCL is a platform that enables museums to engage visitors at museum activities through the use of 
 a mobile application. Content is managed through a WordPress content management system by museum 
 staff, and visitors will download the customized ExCL app, written using [Appcelerator Titanium](http://www.appcelerator.com/titanium/), 
@@ -12,7 +21,7 @@ the content management system, which uses WordPress.
 
 If you are a developer, see the [WordPress developer documentation](docs/developerDocs.md)
 
-## ExCL Content Management System ##
+## <a name="wordpress"></a>WordPress ##
 
 ### Getting started ###
 
