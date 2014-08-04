@@ -35,7 +35,8 @@ class EXCL_Museum implements iExcl_Type {
 			'children' => array('exhibit'),
 			'force_english_translation_for_attributes' => array(
 				'id', 'prices', 'phone', 'email', 'tracking_id', 'tailored_content_categories', 'exhibits',
-				'lang_options', 'homepage_icon', 'exhibit_label', 'exhibit_label_plural')
+				'lang_options', 'homepage_icon', 'exhibit_label', 'exhibit_label_plural'),
+			'force_retrieved_as_normal' => array()
 		),
 		'exhibit' => array(
 			'attributes' => array (
@@ -47,7 +48,8 @@ class EXCL_Museum implements iExcl_Type {
                 array('components' => 'components')
 			),
 			'children' => array('component'),
-			'force_english_translation_for_attributes' => array( 'id', 'sort_order', 'components' )
+			'force_english_translation_for_attributes' => array( 'id', 'sort_order', 'components' ),
+			'force_retrieved_as_normal' => array()
 		),
 		'component' => array(
 			'attributes' => array (
@@ -57,7 +59,8 @@ class EXCL_Museum implements iExcl_Type {
                     array('component_image' => 'image')
 				),
 			'children' => array(),
-			'force_english_translation_for_attributes' => array( 'id', 'sort_order' )
+			'force_english_translation_for_attributes' => array( 'id', 'sort_order' ),
+			'force_retrieved_as_normal' => array()
 		));
 
 	public function get_slug() {

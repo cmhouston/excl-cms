@@ -160,6 +160,23 @@ class Garvs_WP_Lib {
 
   
   /**
+   * Delete URE option with name option_name
+   * @param string $option_name
+   * @param bool $flush_options
+   */
+  public function delete_option($option_name, $flush_options=false) {
+      if (array_key_exists($option_name, $this->options)) {
+          unset($this->options[$option_name]);
+          if ($flush_options) {
+              $this->flush_options();
+          }
+      }
+      
+  }
+  // end of delete_option()
+  
+  
+  /**
    * saves options array into WordPress database wp_options table
    */ 
   public function flush_options() {

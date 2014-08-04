@@ -39,10 +39,10 @@ class Excl_Utility {
 			if (is_array($value) && count($value) == 1 && is_string($value[0])) {
 				$post[$key] = $value[0];
 			}
-
-			// If it's a string version of true or false, convert it to boolean true or false
-			$post[$key] = ($value === "false" || $value === "0") ? false : $post[$key]; // TODO look at not using "0" here
-			$post[$key] = ($value === "true" || $value === "1") ? true : $post[$key];
+			
+			// If it's a quoted boolean value, collapse it to a real boolean
+			if ($value === "true")	{ $post[$key] = true; }
+			if ($value === "false")	{ $post[$key] = false; }
 		}
 		return $post;
 	}
@@ -66,7 +66,6 @@ class Excl_Utility {
 				$merged_post[$post_key] = $translated_post[$post_key];
 			}
         }
-		die(print_r($merged_post));
         return $merged_post;
     }
 

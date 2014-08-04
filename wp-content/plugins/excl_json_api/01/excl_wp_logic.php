@@ -34,6 +34,10 @@ class Excl_WP_Logic {
 			return new \WP_Error( 'wp_json_too_deep', __( 'Too many levels deep' ), array( 'status' => 404 ) );
 		}
 		$this_hierarchy = $hierarchy[$post['post_type']];
+		if (!is_array($this_hierarchy)) {
+			// We hit a post that's not in our hierarchy
+			return;
+		}
 		foreach($this_hierarchy['children'] as $post_type) {
 			$children_posts = $this->get_post_children($post, $post_type);
 			$child_name = ($hierarchy[$post_type]['name']) ? $hierarchy[$post_type]['name'] : $post_type . 's';
@@ -46,8 +50,8 @@ class Excl_WP_Logic {
 			}
 		}
 
-		$post = $this->attach_excl_fields($post);
-
+		$post = $this->attach_excl_fields($post, $this_hierarchy);
+		
         // backup post type info before it is stripped and attach language options to museum
         $post_type = $post['post_type'];
         if($post_type == 'museum') $post['lang_options'] = pll_languages_list( array('fields' => 'locale') );
@@ -69,7 +73,7 @@ class Excl_WP_Logic {
         $translation = false;
 
         if( !empty($lang_slug) )
-        { 
+        {
             $translation_id = pll_get_post($post['id'], $lang_slug);
 
             if( $translation_id != 0 && $translation_id != $post['id'] )
@@ -77,16 +81,19 @@ class Excl_WP_Logic {
                 $args = array('post_type' => $post_type);
                 $translation = $this->load_post_with_id($translation_id, $args);
                 //$translation = $this->recursive_get_post_with_hierarchy($translation, $hierarchy);
+				if (!$translation) {
+					$translation = false;
+				}
             }
         }
         return $translation;
     }
 
-	protected function attach_excl_fields($post) {
+	protected function attach_excl_fields($post, $hierarchy) {
 		$post = $this->attach_post_categories($post);
 		$post = array_merge($post, $this->collapse_custom_fields($this->get_custom_fields($post))); //break these into seperate lines
 		$post = $this->attach_comments($post);
-		$post = $this->merge_types_fields($post);
+		$post = $this->merge_types_fields($post, $hierarchy);
 		return $post;
 	}
 
@@ -126,9 +133,18 @@ class Excl_WP_Logic {
 		return $post;
 	}
 
-	public function merge_types_fields($post) {
+	public function merge_types_fields($post, $hierarchy) {
 		foreach($post as $key => $value) {
-			$possible_types_field = types_render_field( "$key", array('post_id' => $post['ID'], 'output' => 'raw', 'separator' => '|') );
+			$args = array(
+				'post_id' => $post['ID'],
+				'separator' => '|'
+			);
+			if (is_array($hierarchy) && array_key_exists('force_retrieved_as_normal', $hierarchy) && in_array($key, $hierarchy['force_retrieved_as_normal'])) {
+				$args['output'] = 'normal';
+			} else {
+				$args['output'] = 'raw';
+			}
+			$possible_types_field = types_render_field( "$key", $args );
 			if ($possible_types_field != "") {
 				$post[$key] = $possible_types_field;
 			}
@@ -172,7 +188,7 @@ class Excl_WP_Logic {
 	}
 
 	public function get_post_children($post, $child_type) {
-		$args = array('post_type' => $child_type, 'meta_query' => array(array('key' => '_wpcf_belongs_' . $post['post_type'] . '_id', 'value' => $post['ID'])));
+		$args = array('post_type' => $child_type, 'meta_query' => array('key' => '_wpcf_belongs_' . $post['post_type'] . '_id', 'value' => $post['ID']));
 		$posts = $this->get_posts_unlimited($args);
 		$posts = $this->excl_utility->transform_WP_object_to_array($posts);
 		return $posts;

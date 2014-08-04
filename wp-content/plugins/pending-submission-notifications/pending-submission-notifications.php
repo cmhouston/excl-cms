@@ -70,6 +70,7 @@ if ($new_status == 'pending' && user_can($post->post_author, 'edit_posts') && !u
 	$message .= "Title: $post->post_title";
 	$message .= "\r\n\r\n";
 	$message .= "Edit the submission: $edit_link\r\n";
+	$message .= "Preview it: $preview_link";
 	$result = wp_mail($admins, $subject, $message);
 	}
 

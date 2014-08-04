@@ -15,7 +15,8 @@ class EXCL_Component implements iExcl_Type {
                 	 array('posts'=> 'posts')
                 ),
             'children' => array('component-post'),
-			'force_english_translation_for_attributes' => array( 'id', 'sort_order', 'posts' )
+			'force_english_translation_for_attributes' => array( 'id', 'sort_order', 'posts' ),
+			'force_retrieved_as_normal' => array()
         ),
         'component-post' => array(
             'attributes' => array(
@@ -26,8 +27,6 @@ class EXCL_Component implements iExcl_Type {
 				array('hide-in-kiosk-mode' => 'hide_in_kiosk_mode'),
                 array('age-range' => 'age_range'),
 				array('sort-order' => 'sort_order'),
-                array('social-liking' => 'liking'),
-				array('like_count' => 'like_count'),
                 array('social-sharing-image' => 'image_sharing'),
                 array('social-commenting' => 'commenting'),
 				array('social-sharing-text' => 'text_sharing'),
@@ -41,7 +40,8 @@ class EXCL_Component implements iExcl_Type {
             ),
             'children' => array(),
             'name' => 'posts',
-			'force_english_translation_for_attributes' => array( 'id', 'hide_in_kiosk_mode', 'age_range', 'sort_order', 'liking', 'like_count', 'image_sharing', 'commenting', 'text_sharing', 'comments', 'post_header_type', 'post_header_url' )
+			'force_english_translation_for_attributes' => array( 'id', 'hide_in_kiosk_mode', 'age_range', 'sort_order', 'image_sharing', 'commenting', 'text_sharing', 'comments', 'post_header_type', 'post_header_url' ),
+			'force_retrieved_as_normal' => array( 'social-sharing-image', 'social-commenting', 'social-sharing-text', 'hide-in-kiosk-mode' )
         )
     );
 

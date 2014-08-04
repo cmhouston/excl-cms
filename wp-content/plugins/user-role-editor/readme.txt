@@ -83,6 +83,11 @@ Share with me new ideas about plugin further development and link to your site w
 
 
 == Changelog ==
+= 4.14.3 =
+* 25.07.2014
+* Integer "1" as default capability value for new added empty role was excluded for the better compatibility with WordPress core. Boolean "true" is used instead as WordPress itself does.
+* Integration with Gravity Forms permissions system was enhanced for WordPress multisite.
+
 = 4.14.2 =
 * 18.07.2014
 * The instance of main plugin class User_Role_Editor is available for other developers now via $GLOBALS['user_role_editor']

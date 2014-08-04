@@ -33,7 +33,6 @@ class Ure_Lib extends Garvs_WP_Lib {
 	protected $role_select_html = '';
 	protected $role_delete_html = '';
 	protected $capability_remove_html = '';
-	protected $integrate_with_gravity_forms = false;
 	protected $advert = null; 	
   
   
@@ -44,9 +43,7 @@ class Ure_Lib extends Garvs_WP_Lib {
      */
     public function __construct($options_id) {
                                            
-        parent::__construct($options_id);        
-        
-        $this->integrate_with_gravity_forms = class_exists('GFForms');
+        parent::__construct($options_id);                
          
         
     }
@@ -627,14 +624,7 @@ class Ure_Lib extends Garvs_WP_Lib {
                         $cap_removed = true;
                     }
                 }
-            }
-            /*
-              if ($cap_removed) {
-              // save changes to database
-              $option_name = $wpdb->prefix.'user_roles';
-              update_option($option_name, $this->roles);
-              }
-             */
+            }            
         } else {
             $this->roles = $wp_roles->roles;
         }
@@ -1396,7 +1386,7 @@ class Ure_Lib extends Garvs_WP_Lib {
             }
         }
         // Get Gravity Forms plugin capabilities, if available
-        if ($this->integrate_with_gravity_forms) {
+        if (class_exists('GFCommon')) {
             $gf_caps = GFCommon::all_caps();
             foreach ($gf_caps as $gf_cap) {
                 $this->add_capability_to_full_caps_list($gf_cap);
@@ -1562,6 +1552,17 @@ class Ure_Lib extends Garvs_WP_Lib {
     // end of direct_network_roles_update()
 
     
+    public function restore_after_blog_switching($blog_id = 0) {
+        
+        if (!empty($blog_id)) {
+            switch_to_blog($blog_id);
+        }
+        // cleanup blog switching data
+        $GLOBALS['_wp_switched_stack'] = array();
+        $GLOBALS['switched'] = ! empty( $GLOBALS['_wp_switched_stack'] );
+    }
+    // end of restore_after_blog_switching(
+    
     protected function wp_api_network_roles_update() {
         global $wpdb;
         
@@ -1571,17 +1572,14 @@ class Ure_Lib extends Garvs_WP_Lib {
             switch_to_blog($blog_id);
             $this->roles = $this->get_user_roles();
             if (!isset($this->roles[$this->current_role])) { // add new role to this blog
-                $this->roles[$this->current_role] = array('name' => $this->current_role_name, 'capabilities' => array('read' => 1));
+                $this->roles[$this->current_role] = array('name' => $this->current_role_name, 'capabilities' => array('read' => true));
             }
             if (!$this->save_roles()) {
                 $result = false;
                 break;
             }
         }
-        switch_to_blog($old_blog);
-        // cleanup blog switching data
-        $GLOBALS['_wp_switched_stack'] = array();
-        $GLOBALS['switched'] = ! empty( $GLOBALS['_wp_switched_stack'] );
+        $this->restore_after_blog_switching($old_blog);
         $this->roles = $this->get_user_roles();
         
         return $result;
@@ -1731,7 +1729,7 @@ class Ure_Lib extends Garvs_WP_Lib {
                     $role = $wp_roles->get_role($user_role_copy_from);
                     $capabilities = $this->remove_caps_not_allowed_for_single_admin($role->capabilities);
                 } else {
-                    $capabilities = array('read' => 1, 'level_0' => 1);
+                    $capabilities = array('read' => true, 'level_0' => true);
                 }
                 // add new role to the roles array      
                 $result = add_role($user_role_id, $user_role_name, $capabilities);
