@@ -50,27 +50,24 @@ class Excl_Utility {
 	public function whitelist_post($post, $whitelist)
     {
 		$whitelisted_post = array();
-		foreach($whitelist as &$white)
+		foreach($whitelist as $white)
         {
-            $key = array_keys( $white[0] )[0];
-            $value = array_values( $white[0] )[0];
-            $whitelisted_post[$value] = $this->valueOr($post[$key], false);
+			$whitelisted_post[current($white)] = $this->valueOr($post[key($white)], false);
 		}
 		return $whitelisted_post;
 	}
 
-    public function translate_post($post, $translation, $whitelist)
+    public function merge_original_and_translated_post($original_post, $translated_post, $attributes_to_merge)
     {
-        $translated_post = $post;
-
-        foreach($whitelist as &$white)
+        $merged_post = $original_post;
+        foreach($original_post as $post_key => $post_value)
         {
-            $key = array_values( $white[0] )[0];
-            $force_inherit = $white['force_inherit'];
-            $inherit = $force_inherit || $translation[$key] == false;
-            $translated_post[$key] = $inherit ? $post[$key] : $translation[$key];
+			if (in_array($post_key, $attributes_to_merge)) {
+				$merged_post[$post_key] = $translated_post[$post_key];
+			}
         }
-        return $translated_post;
+		die(print_r($merged_post));
+        return $merged_post;
     }
 
 	/* If $value doesn't exist, return $or */
@@ -81,7 +78,6 @@ class Excl_Utility {
 	 private function sortByOrderNumber($a, $b) {
 	   if (array_key_exists("sort_order", $a) && array_key_exists("sort_order", $b))
 	   {
-			//echo "key exists";
 			$sortOrderA = intval($a['sort_order']);
 			$sortOrderB = intval($b['sort_order']);
 			if ($sortOrderA == $sortOrderB)
@@ -93,16 +89,11 @@ class Excl_Utility {
 				return $sortOrderA < $sortOrderB ? -1 : 1;
 			}
 	   }
-//	   echo "key does not exist";
-	   //echo print_r($a);
 	   return 0;
 	 }
 	 
 	 public function sort_posts_by_order($posts){
-		//$posts = array("foo" => 1, "bar" => 2, "baz" => 3);
-	 
 		usort($posts, array($this, 'sortByOrderNumber'));
-		
 		return $posts;
 	 }
 }

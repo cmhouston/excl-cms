@@ -6,42 +6,42 @@ require_once(dirname(__FILE__) . '/iexcl_type.php');
 class EXCL_Component implements iExcl_Type {
     protected $slug = 'component';
     protected $plural_slug = 'components';
-	// force_inherit means whether to force an English translation instead of allowing translations
     protected $children_hierarchy = array(
         'component' => array(
             'attributes' => array (
-                    array( array('ID' => 'id'), 'force_inherit' => true ),
-                    array( array('sort-order'=> 'sort_order'), 'force_inherit' => true ),
-                    array( array('post_title' => 'name'), 'force_inherit' => false ),
-                    array( array('posts'=> 'posts'), 'force_inherit' => true )
+                     array('ID' => 'id'),
+                     array('sort-order'=> 'sort_order'),
+                     array('post_title' => 'name'),
+                	 array('posts'=> 'posts')
                 ),
-            'children' => array('component-post')
+            'children' => array('component-post'),
+			'force_english_translation_for_attributes' => array( 'id', 'sort_order', 'posts' )
         ),
         'component-post' => array(
             'attributes' => array(
-                array( array('ID' => 'id'), 'force_inherit' => true ),
-                
-                array( array('post_title' => 'name'), 'force_inherit' => false ),
-				array( array('categories' => 'section'), 'force_inherit' => false ),
-                array( array('term-order' => 'section_order'), 'force_inherit' => false ),
-				array( array('hide-in-kiosk-mode' => 'hide_in_kiosk_mode'), 'force_inherit' => true ),
-                array( array('age-range' => 'age_range'), 'force_inherit' => true ),
-				array( array('sort-order' => 'sort_order'), 'force_inherit' => true ),
-                array( array('social-liking' => 'liking'), 'force_inherit' => true ),
-				array( array('like_count' => 'like_count'), 'force_inherit' => true ),
-                array( array('social-sharing-image' => 'image_sharing'), 'force_inherit' => true ),
-                array( array('social-commenting' => 'commenting'), 'force_inherit' => true ),
-				array( array('social-sharing-text' => 'text_sharing'), 'force_inherit' => true ),
-                array( array('default-social-media-message' => 'social_media_message'), 'force_inherit' => false ),
-                array( array('post-image' => 'image'), 'force_inherit' => false ),
-                array( array('comments' => 'comments'), 'force_inherit' => true ),
-				array( array('post-preview-text' => 'post_preview_text'), 'force_inherit' => false),
-				array( array('post-body' => 'post_body'), 'force_inherit' => false ),
-				array( array('post-header-type' => 'post_header_type'), 'force_inherit' => true ),
-				array( array('post-header-url' => 'post_header_url'), 'force_inherit' => true )
+                array('ID' => 'id'),
+                array('post_title' => 'name'),
+				array('categories' => 'section'),
+                array('term-order' => 'section_order'),
+				array('hide-in-kiosk-mode' => 'hide_in_kiosk_mode'),
+                array('age-range' => 'age_range'),
+				array('sort-order' => 'sort_order'),
+                array('social-liking' => 'liking'),
+				array('like_count' => 'like_count'),
+                array('social-sharing-image' => 'image_sharing'),
+                array('social-commenting' => 'commenting'),
+				array('social-sharing-text' => 'text_sharing'),
+                array('default-social-media-message' => 'social_media_message'),
+                array('post-image' => 'image'),
+                array('comments' => 'comments'),
+				array('post-preview-text' => 'post_preview_text'),
+				array('post-body' => 'post_body'),
+				array('post-header-type' => 'post_header_type'),
+				array('post-header-url' => 'post_header_url'),
             ),
             'children' => array(),
-            'name' => 'posts'
+            'name' => 'posts',
+			'force_english_translation_for_attributes' => array( 'id', 'hide_in_kiosk_mode', 'age_range', 'sort_order', 'liking', 'like_count', 'image_sharing', 'commenting', 'text_sharing', 'comments', 'post_header_type', 'post_header_url' )
         )
     );
 

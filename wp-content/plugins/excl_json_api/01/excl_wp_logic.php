@@ -51,31 +51,32 @@ class Excl_WP_Logic {
         // backup post type info before it is stripped and attach language options to museum
         $post_type = $post['post_type'];
         if($post_type == 'museum') $post['lang_options'] = pll_languages_list( array('fields' => 'locale') );
-
 		$post = $this->excl_utility->whitelist_post($post, $this_hierarchy['attributes']);
 		$post = $this->excl_utility->clean_post($post);
 
-        $translation = $this->retrieve_translation($post, $post_type, $hierarchy);
-        if($translation !== false) $post = $this->excl_utility->translate_post( $post, $translation, $this_hierarchy['attributes'] );
+        $translated_post = $this->retrieve_translated_post($post, $post_type, $hierarchy);
+        if ($translated_post !== false) {
+        	$post = $this->excl_utility->merge_original_and_translated_post( $post, $translated_post, $this_hierarchy['force_english_translation_for_attributes'] );
+        }
 
         return $post;
     }
 
-    protected function retrieve_translation($post, $post_type, $hierarchy)
+    protected function retrieve_translated_post($post, $post_type, $hierarchy)
     {
         $lang_slug = $this->wp_query->get('language');
 
         $translation = false;
 
         if( !empty($lang_slug) )
-        {
+        { 
             $translation_id = pll_get_post($post['id'], $lang_slug);
 
             if( $translation_id != 0 && $translation_id != $post['id'] )
             {
                 $args = array('post_type' => $post_type);
                 $translation = $this->load_post_with_id($translation_id, $args);
-                $translation = $this->recursive_get_post_with_hierarchy($translation, $hierarchy);
+                //$translation = $this->recursive_get_post_with_hierarchy($translation, $hierarchy);
             }
         }
         return $translation;
@@ -98,9 +99,9 @@ class Excl_WP_Logic {
 	public function clean_comments($comments) {
 		foreach($comments as &$comment) {
 			$comment = $this->excl_utility->whitelist_post($comment, array(
-                array( array('comment_ID' => 'id'), 'force_inherit' => false),
-                array( array('comment_content' => 'body'), 'force_inherit' => false),
-                array( array('comment_date' => 'date'), 'force_inherit' => false)
+                array('comment_ID' => 'id'),
+                array('comment_content' => 'body'),
+                array('comment_date' => 'date')
             ));
 		}
 		return $comments;
