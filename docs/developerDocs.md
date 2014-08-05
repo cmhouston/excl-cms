@@ -1,6 +1,4 @@
 # ExCL Developer Documentation #
-This document is a work in progress, please add/remove/modify as you see fit. 
-The end goal is to document the details of maintaining and enhancing the ExCL platform.
 
 ### Introduction to WordPress ###
 WordPress is an open source blogging and content management system (CMS) platform. It is written in 
@@ -74,3 +72,5 @@ TODO
 
 ### Updating WordPress ###
 TODO
+
+### Contributing ###
