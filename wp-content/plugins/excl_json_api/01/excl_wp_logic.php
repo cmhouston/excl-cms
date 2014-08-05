@@ -188,7 +188,7 @@ class Excl_WP_Logic {
 	}
 
 	public function get_post_children($post, $child_type) {
-		$args = array('post_type' => $child_type, 'meta_query' => array('key' => '_wpcf_belongs_' . $post['post_type'] . '_id', 'value' => $post['ID']));
+		$args = array('post_type' => $child_type, 'meta_query' => array(array('key' => '_wpcf_belongs_' . $post['post_type'] . '_id', 'value' => $post['ID'])));
 		$posts = $this->get_posts_unlimited($args);
 		$posts = $this->excl_utility->transform_WP_object_to_array($posts);
 		return $posts;
