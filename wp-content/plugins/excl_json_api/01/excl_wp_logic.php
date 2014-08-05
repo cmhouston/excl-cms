@@ -80,7 +80,7 @@ class Excl_WP_Logic {
             {
                 $args = array('post_type' => $post_type);
                 $translation = $this->load_post_with_id($translation_id, $args);
-                //$translation = $this->recursive_get_post_with_hierarchy($translation, $hierarchy);
+                $translation = $this->recursive_get_post_with_hierarchy($translation, $hierarchy);
 				if (!$translation) {
 					$translation = false;
 				}

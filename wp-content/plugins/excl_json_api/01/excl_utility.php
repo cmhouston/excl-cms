@@ -59,11 +59,11 @@ class Excl_Utility {
 
     public function merge_original_and_translated_post($original_post, $translated_post, $attributes_to_merge)
     {
-        $merged_post = $original_post;
+        $merged_post = $translated_post;
         foreach($original_post as $post_key => $post_value)
         {
 			if (in_array($post_key, $attributes_to_merge)) {
-				$merged_post[$post_key] = $translated_post[$post_key];
+				$merged_post[$post_key] = $original_post[$post_key];
 			}
         }
         return $merged_post;
@@ -92,7 +92,7 @@ class Excl_Utility {
 	 }
 	 
 	 public function sort_posts_by_order($posts){
-		usort($posts, array($this, 'sortByOrderNumber'));
-		return $posts;
+		 usort($posts, array($this, 'sortByOrderNumber'));
+		 return $posts;
 	 }
 }
