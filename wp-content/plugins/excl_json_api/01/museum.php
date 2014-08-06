@@ -12,13 +12,7 @@ class EXCL_Museum implements iExcl_Type {
 			'attributes' => array(
 				array('ID' => 'id'),
 				array('post_title' => 'name'),
-				array('museum-information' => 'description'),
-				array('prices' => 'prices'),
                 array('museum-map' => 'map'),
-                array('image' => 'image'),
-                array('website' => 'website'),
-                array('phone' => 'phone'),
-                array('email' => 'email'),
                 array('info-page' => 'info'),
 				array('google-analytics-tracking-id' => 'tracking_id'),
 				array('tailored-content-categories' => 'tailored_content_categories'),
@@ -34,7 +28,7 @@ class EXCL_Museum implements iExcl_Type {
 			),
 			'children' => array('exhibit'),
 			'force_english_translation_for_attributes' => array(
-				'id', 'prices', 'phone', 'email', 'tracking_id', 'tailored_content_categories', 'exhibits',
+				'id', 'tracking_id', 'tailored_content_categories', 'exhibits',
 				'lang_options', 'homepage_icon', 'exhibit_label', 'exhibit_label_plural'),
 			'force_retrieved_as_normal' => array()
 		),
@@ -43,7 +37,7 @@ class EXCL_Museum implements iExcl_Type {
                 array('ID' => 'id'),
                 array('sort-order' => 'sort_order'),
                 array('post_title' => 'name'),
-                array('long-description' => 'description'),
+                array('description' => 'description'),
                 array('exhibit_image' => 'exhibit_image'),
                 array('components' => 'components')
 			),

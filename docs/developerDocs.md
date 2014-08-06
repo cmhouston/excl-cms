@@ -5,7 +5,7 @@ WordPress is an open source blogging and content management system (CMS) platfor
 PHP and uses MYSQL for the underlying database. WordPress allows powerful customization through plugins. 
 ExCL uses some required and some optional plugins to adapt WordPress to its needs.
 
-### Installing WordPress ###
+### Installing WordPress and ExCL ###
 The first step to getting the ExCL WordPress site up and running is installing WordPress.
 
 #### Download and Install WordPress ####
@@ -64,7 +64,7 @@ After installing WordPress, customize it by following these steps after logging 
 	
 If you hit any errors during this process, simply refresh the page and try your changes again.
 
-### Installing the ExCL WordPress Plugin ###
+#### Installing the ExCL WordPress Plugin ####
 
 After installing all of the other plugins, install and activate the excl plugin. You can either do this by manually uploading the `wp-content/plugins/excl` folder to your wordpress `wp-content/plugins/` directory or zip up the `wp-content/plugins/excl` folder and upload it to Wordpress through the admin interface. After activating the plugin there is no additional configuration to complete.
 
