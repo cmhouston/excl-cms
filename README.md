@@ -19,7 +19,7 @@ ExCL is divided into two parts: the content management system and the Appcelerat
 This documentation is intended for ExCL developers and details the steps to setup and enhance  
 the content management system, which uses WordPress.
 
-If you are a developer, see the [WordPress developer documentation](docs/developerDocs.md)
+If you are a developer, see the [developer documentation](docs/developerDocs.md) for the ExCL Wordpress technical documentation.
 
 ## <a name="wordpress"></a>WordPress ##
 
