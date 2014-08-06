@@ -18,15 +18,15 @@ that each wordpress environment have its own database, or at the very least its 
 Once WordPress is installed, install and activate the following WordPress plugins. The version number is the latest 
 ExCL-tested version of the plugin. It is possible that later versions will also work, but it is not guaranteed.
 
-* Types - Complete Solution for Custom Fields and Types (version 1.5.7)
-* Category Order and Taxonomy Terms Order (version 1.3.6)
-* cbnet Multi Author Comment Notification (version 3.2)
-* JSON REST API (version 1.1)
-* Pending Submission Notification (version 1.0)
-* Polylang (version 1.5.3)
-* Right Now Reloaded (version 2.2)
-* Status Change Notifications (version 1.0)
-* User Role Editor (version 4.14.2)
+* [Types - Complete Solution for Custom Fields and Types](http://wordpress.org/plugins/types/) (version 1.5.7)
+* [Category Order and Taxonomy Terms Order](https://wordpress.org/plugins/taxonomy-terms-order/) (version 1.3.6)
+* [cbnet Multi Author Comment Notification](http://wordpress.org/plugins/cbnet-multi-author-comment-notification/) (version 3.2)
+* [JSON REST API](https://wordpress.org/plugins/json-rest-api/) (version 1.1)
+* [Pending Submission Notification](https://wordpress.org/plugins/pending-submission-notifications/) (version 1.0)
+* [Polylang](http://wordpress.org/plugins/polylang/) (version 1.5.3)
+* [Right Now Reloaded](https://wordpress.org/plugins/right-now-reloaded/) (version 2.2)
+* [Status Change Notifications](https://wordpress.org/plugins/status-change-notifications/) (version 1.0)
+* [User Role Editor](https://wordpress.org/plugins/user-role-editor/) (version 4.14.2)
 
 #### Configure WordPress and Plugins ####
 After installing WordPress, customize it by following these steps after logging into the admin dashboard:
