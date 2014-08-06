@@ -54,6 +54,12 @@ After installing WordPress, customize it by following these steps after logging 
     * Minimum Level to Use this plugin should be whoever you designate to reorder the sections in the app
     * Auto-sort should be ON
     * Admin sort should be checked
+* Settings -> Pending Submission Notifications
+	* Set the email address to whoever should receive a notification when a post is pending submission
+* Settings -> Status Change Notifications
+	* This plugin allows notices to be sent when an event occurs in Wordpress
+	* We recommend setting up a pending to publish notification for each post type and a pending to draft notification for each type. This will notifiy the author of the post whenever their post is either approved or rejected
+	* Set up the email address at the bottom to an appropriate "from" email address for these notifications
 
 ### Installing the ExCL WordPress Plugin ###
 TODO
