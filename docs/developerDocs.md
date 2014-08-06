@@ -65,7 +65,8 @@ After installing WordPress, customize it by following these steps after logging 
 If you hit any errors during this process, simply refresh the page and try your changes again.
 
 ### Installing the ExCL WordPress Plugin ###
-TODO
+
+After installing all of the other plugins, install and activate the excl plugin. You can either do this by manually uploading the `wp-content/plugins/excl` folder to your wordpress `wp-content/plugins/` directory or zip up the `wp-content/plugins/excl` folder and upload it to Wordpress through the admin interface. After activating the plugin there is no additional configuration to complete.
 
 ### Running the Unit Tests ###
 TODO
