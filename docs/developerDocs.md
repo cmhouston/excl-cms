@@ -15,7 +15,7 @@ http://codex.wordpress.org/Installing_WordPress to complete the WordPress instal
 that each wordpress environment have its own database, or at the very least its own table prefix.
 
 #### Download and Install WordPress Plugins ####
-Once WordPress is installed, install the following WordPress plugins. The version number is the latest 
+Once WordPress is installed, install and activate the following WordPress plugins. The version number is the latest 
 ExCL-tested version of the plugin. It is possible that later versions will also work, but it is not guaranteed.
 
 * Types - Complete Solution for Custom Fields and Types (version 1.5.7)
