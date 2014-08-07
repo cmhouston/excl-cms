@@ -51,15 +51,13 @@ add_action( 'admin_menu', 'edit_admin_menus' );
  *********************************************************/
 
 // Adapted from plugin "Post Meta Box Order" (http://github.com/LettoBlog/post-meta-box-order) by Mustafa Uysal, LettoBlog (http://lettoblog.com)
-
-$types = array('museum', 'exhibit', 'component', 'component-post');
-
 add_action('init', 'posts_widgets_order');
 
 function posts_widgets_order() {
     global $wpdb, $user_ID;
 
 	if ( !empty( $user_ID ) ) {
+		$types = array('museum', 'exhibit', 'component', 'component-post');
 		foreach ($types as $type) {
 			/**
 			 * Default meta boxes
