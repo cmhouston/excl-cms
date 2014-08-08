@@ -14,6 +14,7 @@ An Overview of how to install/configure WordPress, and a look into our custom Wo
 	- [Updating WordPress](#updating)
 	- [Helpful Tools](#tools)
 - [Titanium](https://github.com/cmhouston/excl-mobile#titanium)
+- [Contributing](#contributing)
 
 
 # <a name="exclIntro"></a> Introduction to ExCL #
@@ -152,3 +153,12 @@ Some of the tools that have been helpful to the initial ExCL Developers are:
 - [PhpStorm](http://www.jetbrains.com/phpstorm/)
 - [XDebug](http://xdebug.org/)
 - [FileZilla](http://sourceforge.net/projects/filezilla/)
+
+# <a name="contributing"></a> Contributing #
+
+We welcome contributions to this code. In order to contribute, please follow these steps:
+
+1. Fork this repository
+2. Make your changes
+3. Submit a pull request to have your changes merged in
+4. The pull request will be reviewed by our core team and possibly merged into the master branch
