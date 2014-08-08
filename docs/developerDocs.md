@@ -1,20 +1,44 @@
 # ExCL Developer Documentation #
+An Overview of how to install/configure WordPress, and a look into our custom WordPress plugin
 
-### Introduction to WordPress ###
+### Contents ###
+
+1. [Introduction to ExCL](#exclIntro)
+- [WordPress](#wordpress)
+- [Titanium](https://github.com/cmhouston/excl-mobile#titanium)
+
+
+# <a name="exclIntro"></a> Introduction to ExCL #
+ExCL is a platform that enables museums to engage visitors at museum activities through the use of 
+a mobile application. Content is managed through a WordPress content management system by museum 
+staff, and visitors will download the customized ExCL app, written using [Appcelerator Titanium](http://www.appcelerator.com/titanium/), 
+to their mobile device. ExCL is also intended to be used by museums on kiosk devices and provides 
+a kiosk mode for this purpose.
+
+ExCL is divided into two parts: the content management system and the Appcelerator Titanium mobile application. This repository is for the WordPress content management system. [Click here to go to the Titanium project](https://github.com/cmhouston/excl-mobile).
+
+This documentation is intended for ExCL developers and details the steps to setup and enhance  
+the content management system, which uses WordPress.
+
+If you are a developer, see the [developer documentation](docs/developerDocs.md) for the ExCL Wordpress technical documentation.
+
+# <a name="wordpress"></a> WordPress #
+
+## Introduction to WordPress ##
 WordPress is an open source blogging and content management system (CMS) platform. It is written in 
-PHP and uses MYSQL for the underlying database. WordPress allows powerful customization through plugins. 
+[PHP](https://php.net/) and uses [MYSQL](http://www.mysql.com/) for the underlying database. WordPress allows powerful customization through plugins. 
 ExCL uses some required and some optional plugins to adapt WordPress to its needs.
 
-### Installing WordPress and ExCL ###
+## Getting started ##
+
 The first step to getting the ExCL WordPress site up and running is installing WordPress.
 
-#### Download and Install WordPress ####
+### Download and Install WordPress ###
 ExCL was built on WordPress 3.9.1. For each WordPress environment to set up, download a fresh copy of 
-WordPress from http://www.wordpress.org. Follow the setup instructions at 
-http://codex.wordpress.org/Installing_WordPress to complete the WordPress installation. We recommend 
+WordPress from [wordpress.org](http://www.wordpress.org). Follow WordPress's [setup instructions](http://codex.wordpress.org/Installing_WordPress) to complete the WordPress installation. We recommend 
 that each wordpress environment have its own database, or at the very least its own table prefix.
 
-#### Download and Install WordPress Plugins ####
+### Download and Install WordPress Plugins ###
 Once WordPress is installed, install and activate the following WordPress plugins. The version number is the latest 
 ExCL-tested version of the plugin. It is possible that later versions will also work, but it is not guaranteed.
 
@@ -28,7 +52,11 @@ ExCL-tested version of the plugin. It is possible that later versions will also 
 * [Status Change Notifications](https://wordpress.org/plugins/status-change-notifications/) (version 1.0)
 * [User Role Editor](https://wordpress.org/plugins/user-role-editor/) (version 4.14.2)
 
-#### Configure WordPress and Plugins ####
+
+
+
+
+### Configure WordPress and Plugins ###
 After installing WordPress, customize it by following these steps after logging into the admin dashboard:
 
 * Types Plugin - Click on “Types” on the admin sidebar
@@ -64,23 +92,21 @@ After installing WordPress, customize it by following these steps after logging 
 	
 If you hit any errors during this process, simply refresh the page and try your changes again.
 
-#### Installing the ExCL WordPress Plugin ####
+## Code Overview ##
+TODO (HZ)
 
-After installing all of the other plugins, install and activate the excl plugin. You can either do this by manually uploading the `wp-content/plugins/excl` folder to your wordpress `wp-content/plugins/` directory or zip up the `wp-content/plugins/excl` folder and upload it to Wordpress through the admin interface. After activating the plugin there is no additional configuration to complete.
+## Enhancing the ExCL WordPress Plugin ##
+TODO	(KC)
 
-### Running the Unit Tests ###
-TODO
+## Deploying WordPress ##
+TODO (KC)
 
-### Code Overview ###
-TODO
+## Updating WordPress ##
+TODO 
+- Clarification
 
-### Enhancing the ExCL WordPress Plugin ###
-TODO
+## Helpful Tools ##
+Some of the tools that have been helpful to the initial ExCL Developers are:
 
-### Deploying WordPress ###
-TODO
-
-### Updating WordPress ###
-TODO
-
-### Contributing ###
+- [PhpStorm](http://www.jetbrains.com/phpstorm/)
+- [XDebug](http://xdebug.org/)
