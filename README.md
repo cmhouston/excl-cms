@@ -5,6 +5,14 @@ An Overview of how to install/configure WordPress, and a look into our custom Wo
 
 1. [Introduction to ExCL](#exclIntro)
 - [WordPress](#wordpress)
+	1. [Introduction to WordPress](#intro)
+	- [Setting up a Server](#setup)
+	- [Getting Started With WordPress](#getStarted)
+	- [Code Overview](#overview)
+	- [Enhancing the ExCL WordPress Plugin](#enhancements)
+	- [Deploying WordPress](#deployment)
+	- [Updating WordPress](#updating)
+	- [Helpful Tools](#tools)
 - [Titanium](https://github.com/cmhouston/excl-mobile#titanium)
 
 
@@ -24,18 +32,18 @@ If you are a developer, see the [developer documentation](docs/developerDocs.md)
 
 # <a name="wordpress"></a> WordPress #
 
-## Introduction to WordPress ##
+## <a name="intro"></a> Introduction to WordPress ##
 WordPress is an open source blogging and content management system (CMS) platform. It is written in 
 [PHP](https://php.net/) and uses [MYSQL](http://www.mysql.com/) for the underlying database. WordPress allows powerful customization through plugins. 
 ExCL uses some required and some optional plugins to adapt WordPress to its needs.
 
-## Setting up a Server ##
+## <a name="setup"></a> Setting up a Server ##
 
 To allow your app to pull data from your Content Management System it must be hosted online. WordPress suggests a few options for hosting, and they can be found through the [WordPress Web Hosting](http://wordpress.org/hosting/) page.
 
 Once your host is created, created a database for ExCL and a MySQL user.
 
-## Getting started With Wordpress ##
+## <a name="getStarted"></a> Getting Started With Wordpress ##
 
 ### Download and Install WordPress ###
 ExCL was built on WordPress 3.9.1. For each WordPress environment to set up, download a fresh copy of 
@@ -96,7 +104,7 @@ After installing WordPress, customize it by following these steps after logging 
 	
 If you hit any errors during this process, simply refresh the page and try your changes again.
 
-## Code Overview ##
+## <a name="overview"></a> Code Overview ##
 
 The current plugin used to create the JSON relevant to the ExCL  is the [excl_json_api](wp-content/plugins/excl_json_api). Here are two example JSON files which show what JSON WordPress exports, one for each endpoint:
 
@@ -117,14 +125,14 @@ Here is a brief overview of the files contained in the plugin and the purposes t
 - WordPressWrapper.php – a header file that excl\_api\_controller builds off of
 
 
-## Enhancing the ExCL WordPress Plugin ##
+## <a name="enhancements"></a> Enhancing the ExCL WordPress Plugin ##
 
 As features are added to the mobile app through the [Titanium code](https://github.com/cmhouston/excl-mobile) the WordPress ExCL plugin may have to be updated to accommodate that. However there are a couple enhancements that are already on the road map for ExCL: 
 
 - Remove Quick Edit and Save all Options because they do not function correctly
 - Error Handling if ID does not exist
 
-## Deploying WordPress ##
+## <a name="deployment"></a> Deploying WordPress ##
 
 Whenever you make changes to your local copy of excl-cms, you must push those changes to your WordPress server before they will take effect. To do so:
 
@@ -132,13 +140,13 @@ Whenever you make changes to your local copy of excl-cms, you must push those ch
 2. Copy the folders/files within your local ExCL-CMS to the root folder on the WordPress Database.
 	- This will overwrite many of the existing files in WordPress. 
 
-## Updating WordPress ##
+## <a name="updating"></a> Updating WordPress ##
 
 Periodically WordPress will come out with updates. These can be found on the WordPress website on the [WordPress Updates](https://codex.wordpress.org/Updating_WordPress) page.
 
 One thing to keep in mind when updating WordPress is that plugins may work slightly differently under different versions. This can cause errors between other plugins that are installed so it is recommended to thoroughly test your WordPress CMS system after you update.
 
-## Helpful Tools ##
+## <a name="tools"></a> Helpful Tools ##
 Some of the tools that have been helpful to the initial ExCL Developers are:
 
 - [PhpStorm](http://www.jetbrains.com/phpstorm/)
