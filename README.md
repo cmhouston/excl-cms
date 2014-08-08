@@ -31,9 +31,9 @@ ExCL uses some required and some optional plugins to adapt WordPress to its need
 
 ## Setting up a Server ##
 
-[TODO]()
+To allow your app to pull data from your Content Management System it must be hosted online. WordPress suggests a few options for hosting, and they can be found through the [WordPress Web Hosting](http://wordpress.org/hosting/) page.
 
-Get Harry's 
+Once your host is created, created a database for ExCL and a MySQL user.
 
 ## Getting started With Wordpress ##
 
@@ -97,7 +97,25 @@ After installing WordPress, customize it by following these steps after logging 
 If you hit any errors during this process, simply refresh the page and try your changes again.
 
 ## Code Overview ##
-TODO
+
+The current plugin used to create the JSON relevant to the ExCL  is the [excl_json_api](wp-content/plugins/excl_json_api). Here are two example JSON files which show what JSON WordPress exports, one for each endpoint:
+
+- [Museum](example_museum.json)
+- [Component](example_component.json)
+
+Here is a brief overview of the files contained in the plugin and the purposes they serve:
+
+- Commenter.php – Used to translate current comments to a JSON format and to transfer comments from the user interface to the content management system
+- component.php – Used to implement the component level of the hierarchy. It also contains the Post level (the child of the Component level)
+- excl\_api\_controller – General endpoint class that provides functions common across all api endpoints
+- excl\_response\_helper.php – packages the JSON and wraps it in a status code
+- excl\_utility.php – Contains all functions used to pull and translate data from WordPress. 
+- excl\_wp\_logic.php – Contains functions used to manage WordPress content.
+- iexcl\_type.php – an interface that each endpoint level inherits from.
+- Main.php – the file that “bundles” the other files and creates the WordPress plugin
+- Museum.php – Used to implement the Museum level of the hierarchy. It also contains the Exhibit Level (the child of the Museum level)
+- WordPressWrapper.php – a header file that excl\_api\_controller builds off of
+
 
 ## Enhancing the ExCL WordPress Plugin ##
 
@@ -108,18 +126,17 @@ As features are added to the mobile app through the [Titanium code](https://gith
 
 ## Deploying WordPress ##
 
-[TODO]()
-
 Whenever you make changes to your local copy of excl-cms, you must push those changes to your WordPress server before they will take effect. To do so:
 
 1. Connect to your server using [FileZilla](http://sourceforge.net/projects/filezilla/) (or some other FTP service) 
 2. Copy the folders/files within your local ExCL-CMS to the root folder on the WordPress Database.
-	1. This will overwrite many of the existing files in WordPress. 
+	- This will overwrite many of the existing files in WordPress. 
 
 ## Updating WordPress ##
 
-Periodically WordPress will come out with updates
-[TODO]()
+Periodically WordPress will come out with updates. These can be found on the WordPress website on the [WordPress Updates](https://codex.wordpress.org/Updating_WordPress) page.
+
+One thing to keep in mind when updating WordPress is that plugins may work slightly differently under different versions. This can cause errors between other plugins that are installed so it is recommended to thoroughly test your WordPress CMS system after you update.
 
 ## Helpful Tools ##
 Some of the tools that have been helpful to the initial ExCL Developers are:
