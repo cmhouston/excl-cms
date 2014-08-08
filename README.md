@@ -113,11 +113,13 @@ As features are added to the mobile app through the [Titanium code](https://gith
 Whenever you make changes to your local copy of excl-cms, you must push those changes to your WordPress server before they will take effect. To do so:
 
 1. Connect to your server using [FileZilla](http://sourceforge.net/projects/filezilla/) (or some other FTP service) 
-2. Navigate to 
+2. Copy the folders/files within your local ExCL-CMS to the root folder on the WordPress Database.
+	1. This will overwrite many of the existing files in WordPress. 
 
 ## Updating WordPress ##
 
 Periodically WordPress will come out with updates
+[TODO]()
 
 ## Helpful Tools ##
 Some of the tools that have been helpful to the initial ExCL Developers are:
