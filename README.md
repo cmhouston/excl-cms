@@ -29,9 +29,13 @@ WordPress is an open source blogging and content management system (CMS) platfor
 [PHP](https://php.net/) and uses [MYSQL](http://www.mysql.com/) for the underlying database. WordPress allows powerful customization through plugins. 
 ExCL uses some required and some optional plugins to adapt WordPress to its needs.
 
-## Getting started ##
+## Setting up a Server ##
 
-The first step to getting the ExCL WordPress site up and running is installing WordPress.
+[TODO]()
+
+Get Harry's 
+
+## Getting started With Wordpress ##
 
 ### Download and Install WordPress ###
 ExCL was built on WordPress 3.9.1. For each WordPress environment to set up, download a fresh copy of 
@@ -96,17 +100,28 @@ If you hit any errors during this process, simply refresh the page and try your 
 TODO
 
 ## Enhancing the ExCL WordPress Plugin ##
-TODO	(KC)
+
+As features are added to the mobile app through the [Titanium code](https://github.com/cmhouston/excl-mobile) the WordPress ExCL plugin may have to be updated to accommodate that. However there are a couple enhancements that are already on the road map for ExCL: 
+
+- Remove Quick Edit and Save all Options because they do not function correctly
+- Error Handling if ID does not exist
 
 ## Deploying WordPress ##
-TODO (KC)
+
+[TODO]()
+
+Whenever you make changes to your local copy of excl-cms, you must push those changes to your WordPress server before they will take effect. To do so:
+
+1. Connect to your server using [FileZilla](http://sourceforge.net/projects/filezilla/) (or some other FTP service) 
+2. Navigate to 
 
 ## Updating WordPress ##
-TODO 
-- Clarification
+
+Periodically WordPress will come out with updates
 
 ## Helpful Tools ##
 Some of the tools that have been helpful to the initial ExCL Developers are:
 
 - [PhpStorm](http://www.jetbrains.com/phpstorm/)
 - [XDebug](http://xdebug.org/)
+- [FileZilla](http://sourceforge.net/projects/filezilla/)
