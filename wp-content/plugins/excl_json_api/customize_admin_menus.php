@@ -72,7 +72,7 @@ function posts_widgets_order() {
 			 *
 			 * If you want to order any plugin's meta box use meta box's $id
 			 */
-			
+
 			//Left Column
 			$posts_widgets_order_left_column[] = 'wpcf-post-relationship';
 			$posts_widgets_order_left_column[] = 'wpcf-group-' . $type . '-custom-fields';
@@ -80,8 +80,9 @@ function posts_widgets_order() {
 
 			//Right Column
 			$posts_widgets_order_right_column[] = 'submitdiv';
+			$posts_widgets_order_right_column[] = 'ml_box';
 			$posts_widgets_order_right_column[] = 'categorydiv';
-		
+
 			$left_column = '';
 			foreach ( $posts_widgets_order_left_column as $posts_widgets_order_left_column_widget ) {
 			    $left_column .= $posts_widgets_order_left_column_widget . ',';
@@ -99,7 +100,7 @@ function posts_widgets_order() {
 			$posts_widget_order['side'] = $right_column;
 			$posts_widget_order['normal'] = $left_column;
 
-			update_user_option($user_ID, 'meta-box-order_' . $type, $posts_widget_order, true);
+			delete_user_option($user_ID, 'meta-box-order_' . $type, true);
 		}
 	}
 }
