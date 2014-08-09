@@ -52,10 +52,6 @@ ExCL-tested version of the plugin. It is possible that later versions will also 
 * [Status Change Notifications](https://wordpress.org/plugins/status-change-notifications/) (version 1.0)
 * [User Role Editor](https://wordpress.org/plugins/user-role-editor/) (version 4.14.2)
 
-
-
-
-
 ### Configure WordPress and Plugins ###
 After installing WordPress, customize it by following these steps after logging into the admin dashboard:
 

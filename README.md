@@ -16,7 +16,6 @@ An Overview of how to install/configure WordPress, and a look into our custom Wo
 - [Titanium](https://github.com/cmhouston/excl-mobile#titanium)
 - [Contributing](#contributing)
 
-
 # <a name="exclIntro"></a> Introduction to ExCL #
 ExCL is a platform that enables museums to engage visitors at museum activities through the use of 
 a mobile application. Content is managed through a WordPress content management system by museum 
@@ -65,10 +64,6 @@ ExCL-tested version of the plugin. It is possible that later versions will also 
 * [Status Change Notifications](https://wordpress.org/plugins/status-change-notifications/) (version 1.0)
 * [User Role Editor](https://wordpress.org/plugins/user-role-editor/) (version 4.14.2)
 
-
-
-
-
 ### Configure WordPress and Plugins ###
 After installing WordPress, customize it by following these steps after logging into the admin dashboard:
 
@@ -109,8 +104,8 @@ If you hit any errors during this process, simply refresh the page and try your 
 
 The current plugin used to create the JSON relevant to the ExCL  is the [excl_json_api](wp-content/plugins/excl_json_api). Here are two example JSON files which show what JSON WordPress exports, one for each endpoint:
 
-- [Museum](example_museum.json)
-- [Component](example_component.json)
+- Museum
+- Component
 
 Here is a brief overview of the files contained in the plugin and the purposes they serve:
 
@@ -131,15 +126,15 @@ Here is a brief overview of the files contained in the plugin and the purposes t
 As features are added to the mobile app through the [Titanium code](https://github.com/cmhouston/excl-mobile) the WordPress ExCL plugin may have to be updated to accommodate that. However there are a couple enhancements that are already on the road map for ExCL: 
 
 - Remove Quick Edit and Save all Options because they do not function correctly
-- Error Handling if ID does not exist
+- Error handling if an ID given does not the post type requested
 
 ## <a name="deployment"></a> Deploying WordPress ##
 
 Whenever you make changes to your local copy of excl-cms, you must push those changes to your WordPress server before they will take effect. To do so:
 
 1. Connect to your server using [FileZilla](http://sourceforge.net/projects/filezilla/) (or some other FTP service) 
-2. Copy the folders/files within your local ExCL-CMS to the root folder on the WordPress Database.
-	- This will overwrite many of the existing files in WordPress. 
+2. Copy the `wp-content/plugins/excl_json_api` folder to the remote `wp-content/plugins/` directory.
+	- This will overwrite the plugin already on your website. 
 
 ## <a name="updating"></a> Updating WordPress ##
 
