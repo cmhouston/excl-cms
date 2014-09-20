@@ -1,0 +1,1735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<types>
+    <settings>
+        <add_resized_images_to_library>0</add_resized_images_to_library>
+        <register_translations_on_import>0</register_translations_on_import>
+        <images_remote>0</images_remote>
+        <images_remote_cache_time>36</images_remote_cache_time>
+        <help_box>no</help_box>
+    </settings>
+    <groups>
+        <group>
+            <ID>74</ID>
+            <post_content>Exhibit Custom Fields</post_content>
+            <post_title>Exhibit Custom Fields</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpcf_conditional_display>a:2:{s:8:&quot;relation&quot;;s:3:&quot;AND&quot;;s:6:&quot;custom&quot;;s:0:&quot;&quot;;}</_wpcf_conditional_display>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+                <_wp_types_group_fields>,description,exhibit_image,sort-order,</_wp_types_group_fields>
+                <_wp_types_group_post_types>,exhibit,</_wp_types_group_post_types>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_admin_styles></_wp_types_group_admin_styles>
+                <_wp_types_group_templates>all</_wp_types_group_templates>
+            </meta>
+            <hash>8868326de4446c5379986cd8ce95e6ca</hash>
+            <checksum>8868326de4446c5379986cd8ce95e6ca</checksum>
+            <__types_id>exhibit-custom-fields</__types_id>
+            <__types_title>Exhibit Custom Fields</__types_title>
+        </group>
+        <group>
+            <ID>75</ID>
+            <post_content></post_content>
+            <post_title>Post Custom Fields</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpcf_conditional_display>a:2:{s:8:&quot;relation&quot;;s:3:&quot;AND&quot;;s:6:&quot;custom&quot;;s:0:&quot;&quot;;}</_wpcf_conditional_display>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+                <_wp_types_group_fields>,sort-order,hide-in-kiosk-mode,post-image,age-range,post-preview-text,post-header-url,post-header-type,post-body,</_wp_types_group_fields>
+                <_wp_types_group_post_types>,component-post,</_wp_types_group_post_types>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_admin_styles></_wp_types_group_admin_styles>
+                <_wp_types_group_templates>all</_wp_types_group_templates>
+            </meta>
+            <hash>83b0270eebf62bed04e692275944c447</hash>
+            <checksum>83b0270eebf62bed04e692275944c447</checksum>
+            <__types_id>post-custom-fields</__types_id>
+            <__types_title>Post Custom Fields</__types_title>
+        </group>
+        <group>
+            <ID>76</ID>
+            <post_content>The Fields contained in a museum</post_content>
+            <post_title>Museum Custom Fields</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpcf_conditional_display>a:2:{s:8:&quot;relation&quot;;s:3:&quot;AND&quot;;s:6:&quot;custom&quot;;s:0:&quot;&quot;;}</_wpcf_conditional_display>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+                <_wp_types_group_fields>,google-analytics-tracking-id,tailored-content-categories,info-page,homepage-exhibits-label,homepage-info-label,homepage-map-label,homepage-icon,map-field,museum-map,internationalization-message,exhibit-label,exhibit-label-plural,</_wp_types_group_fields>
+                <_wp_types_group_post_types>,museum,</_wp_types_group_post_types>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_admin_styles></_wp_types_group_admin_styles>
+                <_wp_types_group_templates>all</_wp_types_group_templates>
+            </meta>
+            <hash>d6532836f5e63a90c6f6c69db4c700a3</hash>
+            <checksum>d6532836f5e63a90c6f6c69db4c700a3</checksum>
+            <__types_id>museum-custom-fields</__types_id>
+            <__types_title>Museum Custom Fields</__types_title>
+        </group>
+        <group>
+            <ID>78</ID>
+            <post_content>Contains options as to whether or not to display like, comment, and sharing options on a particular post.</post_content>
+            <post_title>Social Sharing Options</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpcf_conditional_display>a:2:{s:8:&quot;relation&quot;;s:3:&quot;AND&quot;;s:6:&quot;custom&quot;;s:0:&quot;&quot;;}</_wpcf_conditional_display>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+                <_wp_types_group_fields>,default-social-media-message,social-sharing-text,social-sharing-image,social-commenting,</_wp_types_group_fields>
+                <_wp_types_group_post_types>,component-post,</_wp_types_group_post_types>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_admin_styles></_wp_types_group_admin_styles>
+                <_wp_types_group_templates>all</_wp_types_group_templates>
+            </meta>
+            <hash>e03ecc28fb78e0309921330d5d4cfcf5</hash>
+            <checksum>e03ecc28fb78e0309921330d5d4cfcf5</checksum>
+            <__types_id>social-sharing-options</__types_id>
+            <__types_title>Social Sharing Options</__types_title>
+        </group>
+        <group>
+            <ID>79</ID>
+            <post_content>Custom fields for the component level</post_content>
+            <post_title>Component Custom Fields</post_title>
+            <post_excerpt></post_excerpt>
+            <post_type>wp-types-group</post_type>
+            <post_status>publish</post_status>
+            <meta>
+                <_wpcf_conditional_display>a:2:{s:8:&quot;relation&quot;;s:3:&quot;AND&quot;;s:6:&quot;custom&quot;;s:0:&quot;&quot;;}</_wpcf_conditional_display>
+                <_wp_types_group_filters_association>any</_wp_types_group_filters_association>
+                <_wp_types_group_fields>,component_image,sort-order,</_wp_types_group_fields>
+                <_wp_types_group_post_types>,component,</_wp_types_group_post_types>
+                <_wp_types_group_terms>all</_wp_types_group_terms>
+                <_wp_types_group_admin_styles></_wp_types_group_admin_styles>
+                <_wp_types_group_templates>all</_wp_types_group_templates>
+            </meta>
+            <hash>9a7a21e2384f611f4bc1785731f91a79</hash>
+            <checksum>9a7a21e2384f611f4bc1785731f91a79</checksum>
+            <__types_id>component-custom-fields</__types_id>
+            <__types_title>Component Custom Fields</__types_title>
+        </group>
+    </groups>
+    <fields>
+        <field>
+            <description>A picture of the museum</description>
+            <data>
+                <repetitive>0</repetitive>
+                <is_new>1</is_new>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>museum-picture</id>
+            <name>Museum Picture</name>
+            <type>image</type>
+            <slug>museum-picture</slug>
+            <meta_key>wpcf-museum-picture</meta_key>
+            <meta_type>postmeta</meta_type>
+            <wpml_action>1</wpml_action>
+            <__types_id>museum-picture</__types_id>
+            <__types_title>Museum Picture</__types_title>
+            <hash>12648af5b858265116a5ade62d641374</hash>
+            <checksum>12648af5b858265116a5ade62d641374</checksum>
+        </field>
+        <field>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <validate>
+                    <required>
+                        <active>1</active>
+                        <value>true</value>
+                        <message>This Field is required</message>
+                    </required>
+                </validate>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>component-name</id>
+            <name>Component name</name>
+            <type>textfield</type>
+            <slug>component-name</slug>
+            <meta_key>wpcf-component-name</meta_key>
+            <meta_type>postmeta</meta_type>
+            <wpml_action>2</wpml_action>
+            <__types_id>component-name</__types_id>
+            <__types_title>Component name</__types_title>
+            <hash>fdc875a18d64bab95eadef0c511e841c</hash>
+            <checksum>fdc875a18d64bab95eadef0c511e841c</checksum>
+        </field>
+        <field>
+            <id>component-image</id>
+            <slug>component-image</slug>
+            <type>image</type>
+            <name>Component image</name>
+            <description></description>
+            <data>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-component-image</meta_key>
+            <meta_type>postmeta</meta_type>
+            <wpml_action>1</wpml_action>
+            <__types_id>component-image</__types_id>
+            <__types_title>Component image</__types_title>
+            <hash>87903d20fb924e4e20f7ab848a3ee863</hash>
+            <checksum>87903d20fb924e4e20f7ab848a3ee863</checksum>
+        </field>
+        <field>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>museum-information</id>
+            <name>Museum Information</name>
+            <type>textarea</type>
+            <slug>museum-information</slug>
+            <meta_key>wpcf-museum-information</meta_key>
+            <meta_type>postmeta</meta_type>
+            <wpml_action>2</wpml_action>
+            <__types_id>museum-information</__types_id>
+            <__types_title>Museum Information</__types_title>
+            <hash>71965bcf4092684ba7aa91c11c0d6c68</hash>
+            <checksum>71965bcf4092684ba7aa91c11c0d6c68</checksum>
+        </field>
+        <field>
+            <description>The URL for the media. This could be an image or a video</description>
+            <data>
+                <repetitive>0</repetitive>
+                <validate>
+                    <required>
+                        <active>1</active>
+                        <value>true</value>
+                        <message>This Field is required</message>
+                    </required>
+                    <url>
+                        <active>1</active>
+                        <message>Please enter a valid URL address</message>
+                    </url>
+                </validate>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>media-url</id>
+            <name>Media URL</name>
+            <type>url</type>
+            <slug>media-url</slug>
+            <meta_key>wpcf-media-url</meta_key>
+            <meta_type>postmeta</meta_type>
+            <wpml_action>1</wpml_action>
+            <__types_id>media-url</__types_id>
+            <__types_title>Media URL</__types_title>
+            <hash>f47551fdc89e71ec8fb7dcdb9a327764</hash>
+            <checksum>f47551fdc89e71ec8fb7dcdb9a327764</checksum>
+        </field>
+        <field>
+            <description>The type of the media: image or video</description>
+            <data>
+                <options>
+                    <wpcf-fields-radio-option-150b8880ba47b6436b02a6be1fbd8c8e-1>
+                        <title>Image</title>
+                        <value>image</value>
+                        <display_value>image</display_value>
+                    </wpcf-fields-radio-option-150b8880ba47b6436b02a6be1fbd8c8e-1>
+                    <wpcf-fields-radio-option-28c3bffc07cf039852c412240b51f696-1>
+                        <title>Video</title>
+                        <value>video</value>
+                        <display_value>video</display_value>
+                    </wpcf-fields-radio-option-28c3bffc07cf039852c412240b51f696-1>
+                    <default>no-default</default>
+                </options>
+                <display>value</display>
+                <validate>
+                    <required>
+                        <active>1</active>
+                        <value>true</value>
+                        <message>This Field is required</message>
+                    </required>
+                </validate>
+                <is_new>1</is_new>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>media-type</id>
+            <name>Media Type</name>
+            <type>radio</type>
+            <slug>media-type</slug>
+            <meta_key>wpcf-media-type</meta_key>
+            <meta_type>postmeta</meta_type>
+            <wpml_action>2</wpml_action>
+            <__types_id>media-type</__types_id>
+            <__types_title>Media Type</__types_title>
+            <hash>2ba4a837304ac3e490886a24629481bd</hash>
+            <checksum>2ba4a837304ac3e490886a24629481bd</checksum>
+        </field>
+        <field>
+            <id>default-social-media-message</id>
+            <slug>default-social-media-message</slug>
+            <type>textfield</type>
+            <name>Default Social Media Message</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-default-social-media-message</meta_key>
+            <meta_type>postmeta</meta_type>
+            <wpml_action>2</wpml_action>
+            <__types_id>default-social-media-message</__types_id>
+            <__types_title>Default Social Media Message</__types_title>
+            <hash>8810e46ebc754dd8e469588e8efab6fb</hash>
+            <checksum>8810e46ebc754dd8e469588e8efab6fb</checksum>
+        </field>
+        <field>
+            <id>price</id>
+            <slug>price</slug>
+            <type>textfield</type>
+            <name>Prices</name>
+            <description>The Costs of Admission for the Museum</description>
+            <data>
+                <repetitive>0</repetitive>
+                <validate>
+                    <required>
+                        <active>1</active>
+                        <value>true</value>
+                        <message>This Field is required</message>
+                    </required>
+                </validate>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-price</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>price</__types_id>
+            <__types_title>Prices</__types_title>
+            <hash>f14594c9707c275f3b76c3192206b468</hash>
+            <checksum>f14594c9707c275f3b76c3192206b468</checksum>
+        </field>
+        <field>
+            <description>A list of prices of admission to the museum</description>
+            <data>
+                <repetitive>0</repetitive>
+                <validate>
+                    <required>
+                        <active>1</active>
+                        <value>true</value>
+                        <message>This Field is required</message>
+                    </required>
+                </validate>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>prices</id>
+            <name>Prices</name>
+            <type>textarea</type>
+            <slug>prices</slug>
+            <meta_key>wpcf-prices</meta_key>
+            <meta_type>postmeta</meta_type>
+            <wpml_action>1</wpml_action>
+            <__types_id>prices</__types_id>
+            <__types_title>Prices</__types_title>
+            <hash>abfa509c9ff1e393be0acae6636544ff</hash>
+            <checksum>abfa509c9ff1e393be0acae6636544ff</checksum>
+        </field>
+        <field>
+            <id>map</id>
+            <slug>map</slug>
+            <type>url</type>
+            <name>Map</name>
+            <description>Link to a Map of a Museum</description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+                <removed_from_history>1</removed_from_history>
+            </data>
+            <meta_key>wpcf-map</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>map</__types_id>
+            <__types_title>Map</__types_title>
+            <hash>40ae502217464a90e79e0fc6f7caf07a</hash>
+            <checksum>40ae502217464a90e79e0fc6f7caf07a</checksum>
+        </field>
+        <field>
+            <id>image</id>
+            <slug>image</slug>
+            <type>image</type>
+            <name>Image</name>
+            <description>A Picture for the opening screen of the museum app</description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-image</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>image</__types_id>
+            <__types_title>Image</__types_title>
+            <hash>aaa4426c0a7c5d473bbf116888d97733</hash>
+            <checksum>aaa4426c0a7c5d473bbf116888d97733</checksum>
+        </field>
+        <field>
+            <id>website</id>
+            <slug>website</slug>
+            <type>url</type>
+            <name>Website</name>
+            <description>A link to the website</description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-website</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>website</__types_id>
+            <__types_title>Website</__types_title>
+            <hash>a47507ab90df7f0ce4c86a94e3d66fd8</hash>
+            <checksum>a47507ab90df7f0ce4c86a94e3d66fd8</checksum>
+        </field>
+        <field>
+            <id>phone</id>
+            <slug>phone</slug>
+            <type>phone</type>
+            <name>Phone</name>
+            <description>The phone number of museum</description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-phone</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>phone</__types_id>
+            <__types_title>Phone</__types_title>
+            <hash>acf133804411cdfac61b35282922c4f7</hash>
+            <checksum>acf133804411cdfac61b35282922c4f7</checksum>
+        </field>
+        <field>
+            <id>email</id>
+            <slug>email</slug>
+            <type>email</type>
+            <name>Email</name>
+            <description>The museum\&#039;s email address</description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-email</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>email</__types_id>
+            <__types_title>Email</__types_title>
+            <hash>80b26c5fb59161f1d3f5876d82b2ae03</hash>
+            <checksum>80b26c5fb59161f1d3f5876d82b2ae03</checksum>
+        </field>
+        <field>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>post-thumbnail</id>
+            <name>Post Thumbnail</name>
+            <type>image</type>
+            <slug>post-thumbnail</slug>
+            <meta_key>wpcf-post-thumbnail</meta_key>
+            <meta_type>postmeta</meta_type>
+            <wpml_action>1</wpml_action>
+            <__types_id>post-thumbnail</__types_id>
+            <__types_title>Post Thumbnail</__types_title>
+            <hash>e608aeb160bf88a3dd69261ced565944</hash>
+            <checksum>e608aeb160bf88a3dd69261ced565944</checksum>
+        </field>
+        <field>
+            <id>description</id>
+            <slug>description</slug>
+            <type>textarea</type>
+            <name>Description</name>
+            <description>Gives the full description of the exhibit</description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-description</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>description</__types_id>
+            <__types_title>Description</__types_title>
+            <hash>852271a47e158f2bfd09434b14061ea0</hash>
+            <checksum>852271a47e158f2bfd09434b14061ea0</checksum>
+        </field>
+        <field>
+            <id>exhibit_image</id>
+            <slug>exhibit_image</slug>
+            <type>image</type>
+            <name>Exhibit Image</name>
+            <description>Intro Picture (1050px  x  600px)</description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-exhibit_image</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>exhibit_image</__types_id>
+            <__types_title>Exhibit Image</__types_title>
+            <hash>b7f14fec2be78d40b307fa5c7b668b42</hash>
+            <checksum>b7f14fec2be78d40b307fa5c7b668b42</checksum>
+        </field>
+        <field>
+            <id>component_image</id>
+            <slug>component_image</slug>
+            <type>image</type>
+            <name>Component image</name>
+            <description>Image should be 1050x600</description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-component_image</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>component_image</__types_id>
+            <__types_title>Component image</__types_title>
+            <hash>3593120583470bc818e3716b19c4cb18</hash>
+            <checksum>3593120583470bc818e3716b19c4cb18</checksum>
+        </field>
+        <field>
+            <description></description>
+            <data>
+                <save_empty>yes</save_empty>
+                <options>
+                    <wpcf-fields-checkboxes-option-aec21f75a9d6acf0264040d7ca16fbb5-1>
+                        <title>Yes</title>
+                        <set_value>1</set_value>
+                        <display>value</display>
+                        <display_value_not_selected>false</display_value_not_selected>
+                        <display_value_selected>true</display_value_selected>
+                    </wpcf-fields-checkboxes-option-aec21f75a9d6acf0264040d7ca16fbb5-1>
+                </options>
+                <is_new>1</is_new>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>social-sharing</id>
+            <name>Enable Sharing for this Post?</name>
+            <type>checkboxes</type>
+            <slug>social-sharing</slug>
+            <meta_key>wpcf-social-sharing</meta_key>
+            <meta_type>postmeta</meta_type>
+            <wpml_action>2</wpml_action>
+            <__types_id>social-sharing</__types_id>
+            <__types_title>Enable Sharing for this Post?</__types_title>
+            <hash>402fee4905d8b769a9f9629076fcde7f</hash>
+            <checksum>402fee4905d8b769a9f9629076fcde7f</checksum>
+        </field>
+        <field>
+            <id>social-commenting</id>
+            <slug>social-commenting</slug>
+            <type>checkboxes</type>
+            <name>Enable Commenting for this Post?</name>
+            <description></description>
+            <data>
+                <save_empty>yes</save_empty>
+                <options>
+                    <wpcf-fields-checkboxes-option-290b5d11ee7d57d8fa1207d8ebe253fa-1>
+                        <title>Yes</title>
+                        <set_value>1</set_value>
+                        <display>value</display>
+                        <display_value_not_selected>false</display_value_not_selected>
+                        <display_value_selected>true</display_value_selected>
+                    </wpcf-fields-checkboxes-option-290b5d11ee7d57d8fa1207d8ebe253fa-1>
+                </options>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-social-commenting</meta_key>
+            <meta_type>postmeta</meta_type>
+            <wpml_action>1</wpml_action>
+            <__types_id>social-commenting</__types_id>
+            <__types_title>Enable Commenting for this Post?</__types_title>
+            <hash>2b5dc09b09ada6fcbaf34c8ac90acaa7</hash>
+            <checksum>2b5dc09b09ada6fcbaf34c8ac90acaa7</checksum>
+        </field>
+        <field>
+            <description></description>
+            <data>
+                <save_empty>yes</save_empty>
+                <options>
+                    <wpcf-fields-checkboxes-option-aec21f75a9d6acf0264040d7ca16fbb5-1>
+                        <title>Yes</title>
+                        <set_value>1</set_value>
+                        <display>value</display>
+                        <display_value_not_selected>false</display_value_not_selected>
+                        <display_value_selected>true</display_value_selected>
+                    </wpcf-fields-checkboxes-option-aec21f75a9d6acf0264040d7ca16fbb5-1>
+                </options>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <id>social-sharing-images</id>
+            <name>Enable Sharing for this Post?</name>
+            <type>checkboxes</type>
+            <slug>social-sharing-images</slug>
+            <meta_key>wpcf-social-sharing-images</meta_key>
+            <meta_type>postmeta</meta_type>
+            <wpml_action>2</wpml_action>
+            <__types_id>social-sharing-images</__types_id>
+            <__types_title>Enable Sharing for this Post?</__types_title>
+            <hash>db0869e656a11698f3d5c72e5c8899b8</hash>
+            <checksum>db0869e656a11698f3d5c72e5c8899b8</checksum>
+        </field>
+        <field>
+            <id>social-sharing-text</id>
+            <slug>social-sharing-text</slug>
+            <type>checkboxes</type>
+            <name>Enable Text Sharing for this Post?</name>
+            <description></description>
+            <data>
+                <save_empty>yes</save_empty>
+                <options>
+                    <wpcf-fields-checkboxes-option-aec21f75a9d6acf0264040d7ca16fbb5-1>
+                        <title>Yes</title>
+                        <set_value>1</set_value>
+                        <display>value</display>
+                        <display_value_not_selected>false</display_value_not_selected>
+                        <display_value_selected>true</display_value_selected>
+                    </wpcf-fields-checkboxes-option-aec21f75a9d6acf0264040d7ca16fbb5-1>
+                </options>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-social-sharing-text</meta_key>
+            <meta_type>postmeta</meta_type>
+            <wpml_action>1</wpml_action>
+            <__types_id>social-sharing-text</__types_id>
+            <__types_title>Enable Text Sharing for this Post?</__types_title>
+            <hash>1ce6f756fb963a290ffc2b1dd08903c3</hash>
+            <checksum>1ce6f756fb963a290ffc2b1dd08903c3</checksum>
+        </field>
+        <field>
+            <id>social-sharing-image</id>
+            <slug>social-sharing-image</slug>
+            <type>checkboxes</type>
+            <name>Enable Image Sharing for this Post?</name>
+            <description></description>
+            <data>
+                <save_empty>yes</save_empty>
+                <options>
+                    <wpcf-fields-checkboxes-option-839b682c6a89d1a5c11c620690d092c6-1>
+                        <title>Yes</title>
+                        <set_value>1</set_value>
+                        <display>value</display>
+                        <display_value_not_selected>false</display_value_not_selected>
+                        <display_value_selected>true</display_value_selected>
+                    </wpcf-fields-checkboxes-option-839b682c6a89d1a5c11c620690d092c6-1>
+                </options>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-social-sharing-image</meta_key>
+            <meta_type>postmeta</meta_type>
+            <wpml_action>1</wpml_action>
+            <__types_id>social-sharing-image</__types_id>
+            <__types_title>Enable Image Sharing for this Post?</__types_title>
+            <hash>eaddc18586e68527cd7532d92156dd81</hash>
+            <checksum>eaddc18586e68527cd7532d92156dd81</checksum>
+        </field>
+        <field>
+            <id>part-image</id>
+            <slug>part-image</slug>
+            <type>image</type>
+            <name>Part Image</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <conditions>
+                        <condition_2d88dabe3d9a93791e4ac56ce6dbf6fc-1>
+                            <field>part-type</field>
+                            <operation>=</operation>
+                            <value>image</value>
+                        </condition_2d88dabe3d9a93791e4ac56ce6dbf6fc-1>
+                    </conditions>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-part-image</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>part-image</__types_id>
+            <__types_title>Part Image</__types_title>
+            <hash>e695827078d04875412a67ec30d47ed2</hash>
+            <checksum>e695827078d04875412a67ec30d47ed2</checksum>
+        </field>
+        <field>
+            <id>part-video</id>
+            <slug>part-video</slug>
+            <type>video</type>
+            <name>Part Video</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <conditions>
+                        <condition_2a3d1c135e6085fcd0ca758034aefd5d-1>
+                            <field>part-type</field>
+                            <operation>=</operation>
+                            <value>video</value>
+                        </condition_2a3d1c135e6085fcd0ca758034aefd5d-1>
+                    </conditions>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-part-video</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>part-video</__types_id>
+            <__types_title>Part Video</__types_title>
+            <hash>3349b72d57a246e8d5c4bdd4a112856d</hash>
+            <checksum>3349b72d57a246e8d5c4bdd4a112856d</checksum>
+        </field>
+        <field>
+            <id>post-image</id>
+            <slug>post-image</slug>
+            <type>image</type>
+            <name>Post Image</name>
+            <description>image should be 1050x600</description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-post-image</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>post-image</__types_id>
+            <__types_title>Post Image</__types_title>
+            <hash>757d368b421aed5a81307343d794ce17</hash>
+            <checksum>757d368b421aed5a81307343d794ce17</checksum>
+        </field>
+        <field>
+            <id>section</id>
+            <slug>section</slug>
+            <type>textfield</type>
+            <name>Section</name>
+            <description>What section of the component the post belongs to</description>
+            <data>
+                <repetitive>0</repetitive>
+                <is_new>1</is_new>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-section</meta_key>
+            <meta_type>postmeta</meta_type>
+            <wpml_action>1</wpml_action>
+            <__types_id>section</__types_id>
+            <__types_title>Section</__types_title>
+            <hash>79e21c5190b4e9ac2f12ad883a156444</hash>
+            <checksum>79e21c5190b4e9ac2f12ad883a156444</checksum>
+        </field>
+        <field>
+            <id>min-age</id>
+            <slug>min-age</slug>
+            <type>numeric</type>
+            <name>Min Age</name>
+            <description>Minimum age recommendation</description>
+            <data>
+                <repetitive>0</repetitive>
+                <validate>
+                    <number>
+                        <active>1</active>
+                        <message>Please enter numeric data</message>
+                    </number>
+                </validate>
+                <conditional_display>
+                    <relation>OR</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+                <removed_from_history>1</removed_from_history>
+            </data>
+            <meta_key>wpcf-min-age</meta_key>
+            <meta_type>postmeta</meta_type>
+            <wpml_action>1</wpml_action>
+            <__types_id>min-age</__types_id>
+            <__types_title>Min Age</__types_title>
+            <hash>781a7824ec11b9762cba397dba2d962f</hash>
+            <checksum>781a7824ec11b9762cba397dba2d962f</checksum>
+        </field>
+        <field>
+            <id>max-age</id>
+            <slug>max-age</slug>
+            <type>numeric</type>
+            <name>Max Age</name>
+            <description>Maximum age recommendation</description>
+            <data>
+                <repetitive>0</repetitive>
+                <validate>
+                    <number>
+                        <active>1</active>
+                        <message>Please enter numeric data</message>
+                    </number>
+                </validate>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+                <removed_from_history>1</removed_from_history>
+            </data>
+            <meta_key>wpcf-max-age</meta_key>
+            <meta_type>postmeta</meta_type>
+            <wpml_action>1</wpml_action>
+            <__types_id>max-age</__types_id>
+            <__types_title>Max Age</__types_title>
+            <hash>0c815fbdcab964ad00d1b893ad6a5941</hash>
+            <checksum>0c815fbdcab964ad00d1b893ad6a5941</checksum>
+        </field>
+        <field>
+            <id>google-analytics-tracking-id</id>
+            <slug>google-analytics-tracking-id</slug>
+            <type>textfield</type>
+            <name>Google Analytics tracking ID</name>
+            <description>Eg. UA-12345678-9</description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-google-analytics-tracking-id</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>google-analytics-tracking-id</__types_id>
+            <__types_title>Google Analytics tracking ID</__types_title>
+            <hash>efce394440880c253a71def54066883c</hash>
+            <checksum>efce394440880c253a71def54066883c</checksum>
+        </field>
+        <field>
+            <id>age-range</id>
+            <slug>age-range</slug>
+            <type>checkboxes</type>
+            <name>Age Range</name>
+            <description>Recommendation for post age range. Select all that apply. None selected will be treated as all selected.
+
+Note: Any change here must also be included in the tailored content categories on the museum level!</description>
+            <data>
+                <save_empty>no</save_empty>
+                <options>
+                    <wpcf-fields-checkboxes-option-d38b2b5ca443ebbd3ed83fe9379a4b10-1>
+                        <title>2-3</title>
+                        <set_value>2-3</set_value>
+                        <checked>1</checked>
+                        <display>db</display>
+                        <display_value_not_selected></display_value_not_selected>
+                        <display_value_selected></display_value_selected>
+                    </wpcf-fields-checkboxes-option-d38b2b5ca443ebbd3ed83fe9379a4b10-1>
+                    <wpcf-fields-checkboxes-option-64e3b5df97fed23ff6caa31bde3b51fc-1>
+                        <title>4</title>
+                        <set_value>4</set_value>
+                        <checked>1</checked>
+                        <display>db</display>
+                        <display_value_not_selected></display_value_not_selected>
+                        <display_value_selected></display_value_selected>
+                    </wpcf-fields-checkboxes-option-64e3b5df97fed23ff6caa31bde3b51fc-1>
+                    <wpcf-fields-checkboxes-option-256e1d6e909a02522ed4755d1d12d518-1>
+                        <title>5</title>
+                        <set_value>5</set_value>
+                        <checked>1</checked>
+                        <display>db</display>
+                        <display_value_not_selected></display_value_not_selected>
+                        <display_value_selected></display_value_selected>
+                    </wpcf-fields-checkboxes-option-256e1d6e909a02522ed4755d1d12d518-1>
+                    <wpcf-fields-checkboxes-option-c6b76d3b3e15de0d9239ab7e2c77304c-1>
+                        <title>6</title>
+                        <set_value>6</set_value>
+                        <checked>1</checked>
+                        <display>db</display>
+                        <display_value_not_selected></display_value_not_selected>
+                        <display_value_selected></display_value_selected>
+                    </wpcf-fields-checkboxes-option-c6b76d3b3e15de0d9239ab7e2c77304c-1>
+                    <wpcf-fields-checkboxes-option-e7898edaa9a21a73609def076766f4a8-1>
+                        <title>7</title>
+                        <set_value>7</set_value>
+                        <checked>1</checked>
+                        <display>db</display>
+                        <display_value_not_selected></display_value_not_selected>
+                        <display_value_selected></display_value_selected>
+                    </wpcf-fields-checkboxes-option-e7898edaa9a21a73609def076766f4a8-1>
+                    <wpcf-fields-checkboxes-option-cbebdd005500cc675997385210e596f1-1>
+                        <title>8</title>
+                        <set_value>8</set_value>
+                        <checked>1</checked>
+                        <display>db</display>
+                        <display_value_not_selected></display_value_not_selected>
+                        <display_value_selected></display_value_selected>
+                    </wpcf-fields-checkboxes-option-cbebdd005500cc675997385210e596f1-1>
+                    <wpcf-fields-checkboxes-option-b4855c8a6e3c2054d46ba8b8f9cb1c0c-1>
+                        <title>9</title>
+                        <set_value>9</set_value>
+                        <checked>1</checked>
+                        <display>db</display>
+                        <display_value_not_selected></display_value_not_selected>
+                        <display_value_selected></display_value_selected>
+                    </wpcf-fields-checkboxes-option-b4855c8a6e3c2054d46ba8b8f9cb1c0c-1>
+                    <wpcf-fields-checkboxes-option-626a661f7f090165511d2a051708ccd3-1>
+                        <title>10</title>
+                        <set_value>10</set_value>
+                        <checked>1</checked>
+                        <display>db</display>
+                        <display_value_not_selected></display_value_not_selected>
+                        <display_value_selected></display_value_selected>
+                    </wpcf-fields-checkboxes-option-626a661f7f090165511d2a051708ccd3-1>
+                    <wpcf-fields-checkboxes-option-5365f5b6a93df88b39c3babc23d771ff-1>
+                        <title>11</title>
+                        <set_value>11</set_value>
+                        <checked>1</checked>
+                        <display>db</display>
+                        <display_value_not_selected></display_value_not_selected>
+                        <display_value_selected></display_value_selected>
+                    </wpcf-fields-checkboxes-option-5365f5b6a93df88b39c3babc23d771ff-1>
+                    <wpcf-fields-checkboxes-option-f362924bf38a4894d589b01f878bbadc-1>
+                        <title>12</title>
+                        <set_value>12</set_value>
+                        <checked>1</checked>
+                        <display>db</display>
+                        <display_value_not_selected></display_value_not_selected>
+                        <display_value_selected></display_value_selected>
+                    </wpcf-fields-checkboxes-option-f362924bf38a4894d589b01f878bbadc-1>
+                    <wpcf-fields-checkboxes-option-f8ffae159a234ed23af2a153d292c3e2-1>
+                        <title>13+</title>
+                        <set_value>13+</set_value>
+                        <checked>1</checked>
+                        <display>db</display>
+                        <display_value_not_selected></display_value_not_selected>
+                        <display_value_selected></display_value_selected>
+                    </wpcf-fields-checkboxes-option-f8ffae159a234ed23af2a153d292c3e2-1>
+                    <wpcf-fields-checkboxes-option-029ed72b3c2abb6fbe6f85c53128eed9-1>
+                        <title>Adult</title>
+                        <set_value>Adult</set_value>
+                        <checked>1</checked>
+                        <display>db</display>
+                        <display_value_not_selected></display_value_not_selected>
+                        <display_value_selected></display_value_selected>
+                    </wpcf-fields-checkboxes-option-029ed72b3c2abb6fbe6f85c53128eed9-1>
+                </options>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-age-range</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>age-range</__types_id>
+            <__types_title>Age Range</__types_title>
+            <hash>1d2828d2891e94e925279b914991edce</hash>
+            <checksum>1d2828d2891e94e925279b914991edce</checksum>
+        </field>
+        <field>
+            <id>tailored-content-categories</id>
+            <slug>tailored-content-categories</slug>
+            <type>textfield</type>
+            <name>Tailored Content Categories</name>
+            <description>Contains a list of content filtering tags delineated by a | (pipe).
+
+Note: Any change here must also be included in the filter checklist on the post level!</description>
+            <data>
+                <repetitive>1</repetitive>
+                <validate>
+                    <required>
+                        <active>1</active>
+                        <value>true</value>
+                        <message>This Field is required</message>
+                    </required>
+                </validate>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-tailored-content-categories</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>tailored-content-categories</__types_id>
+            <__types_title>Tailored Content Categories</__types_title>
+            <hash>2a18463b9e107783f381079cca982b36</hash>
+            <checksum>2a18463b9e107783f381079cca982b36</checksum>
+        </field>
+        <field>
+            <id>long-description</id>
+            <slug>long-description</slug>
+            <type>textarea</type>
+            <name>Description</name>
+            <description>Gives the full description of the exhibit</description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-long-description</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>long-description</__types_id>
+            <__types_title>Description</__types_title>
+            <hash>f5f3f62c82282ca8a5604eaab5ba243e</hash>
+            <checksum>f5f3f62c82282ca8a5604eaab5ba243e</checksum>
+        </field>
+        <field>
+            <id>order-number</id>
+            <slug>order-number</slug>
+            <type>numeric</type>
+            <name>Order Number</name>
+            <description>The order you want the content/section/post/component/exhibit to appear</description>
+            <data>
+                <repetitive>0</repetitive>
+                <validate>
+                    <number>
+                        <active>1</active>
+                        <message>Please enter numeric data</message>
+                    </number>
+                </validate>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-order-number</meta_key>
+            <meta_type>postmeta</meta_type>
+            <wpml_action>1</wpml_action>
+            <__types_id>order-number</__types_id>
+            <__types_title>Order Number</__types_title>
+            <hash>f4c11d4c735fb714be47fa73d2537afe</hash>
+            <checksum>f4c11d4c735fb714be47fa73d2537afe</checksum>
+        </field>
+        <field>
+            <id>sort-order</id>
+            <slug>sort-order</slug>
+            <type>numeric</type>
+            <name>Sort Order</name>
+            <description>Educators don\&#039;t need to worry about setting the sort order</description>
+            <data>
+                <repetitive>0</repetitive>
+                <validate>
+                    <number>
+                        <active>1</active>
+                        <message>Please enter numeric data</message>
+                    </number>
+                </validate>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-sort-order</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>sort-order</__types_id>
+            <__types_title>Sort Order</__types_title>
+            <hash>518af14e1cedcb15064e6054b84bedad</hash>
+            <checksum>518af14e1cedcb15064e6054b84bedad</checksum>
+        </field>
+        <field>
+            <id>info-page</id>
+            <slug>info-page</slug>
+            <type>wysiwyg</type>
+            <name>Info Page</name>
+            <description></description>
+            <data>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-info-page</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>info-page</__types_id>
+            <__types_title>Info Page</__types_title>
+            <hash>f060a905aa00c7bdebcab36c80a3741a</hash>
+            <checksum>f060a905aa00c7bdebcab36c80a3741a</checksum>
+        </field>
+        <field>
+            <id>map-image</id>
+            <slug>map-image</slug>
+            <type>image</type>
+            <name>Map Image</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+                <removed_from_history>1</removed_from_history>
+            </data>
+            <meta_key>wpcf-map-image</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>map-image</__types_id>
+            <__types_title>Map Image</__types_title>
+            <hash>d7e9fbf5026c5d4c40996ab2675ea277</hash>
+            <checksum>d7e9fbf5026c5d4c40996ab2675ea277</checksum>
+        </field>
+        <field>
+            <id>homepage-exhibits-label</id>
+            <slug>homepage-exhibits-label</slug>
+            <type>textfield</type>
+            <name>Homepage Exhibits Label</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-homepage-exhibits-label</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>homepage-exhibits-label</__types_id>
+            <__types_title>Homepage Exhibits Label</__types_title>
+            <hash>b1ec33056e0bf334d81195b2277e9ad1</hash>
+            <checksum>b1ec33056e0bf334d81195b2277e9ad1</checksum>
+        </field>
+        <field>
+            <id>homepage-info-label</id>
+            <slug>homepage-info-label</slug>
+            <type>textfield</type>
+            <name>Homepage Info Label</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-homepage-info-label</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>homepage-info-label</__types_id>
+            <__types_title>Homepage Info Label</__types_title>
+            <hash>75784b60047af63faba50ea39bb90b00</hash>
+            <checksum>75784b60047af63faba50ea39bb90b00</checksum>
+        </field>
+        <field>
+            <id>homepage-map-label</id>
+            <slug>homepage-map-label</slug>
+            <type>textfield</type>
+            <name>Homepage Map Label</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-homepage-map-label</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>homepage-map-label</__types_id>
+            <__types_title>Homepage Map Label</__types_title>
+            <hash>e1ce4662d4a4ed38ea11e25f17bf8de9</hash>
+            <checksum>e1ce4662d4a4ed38ea11e25f17bf8de9</checksum>
+        </field>
+        <field>
+            <id>homepage-icon</id>
+            <slug>homepage-icon</slug>
+            <type>image</type>
+            <name>Homepage Icon</name>
+            <description>Image can be any dimension; 858 x 836 pixels works well</description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-homepage-icon</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>homepage-icon</__types_id>
+            <__types_title>Homepage Icon</__types_title>
+            <hash>9cae4072309a37df117e03626b0da9f4</hash>
+            <checksum>9cae4072309a37df117e03626b0da9f4</checksum>
+        </field>
+        <field>
+            <id>map-field</id>
+            <slug>map-field</slug>
+            <type>wysiwyg</type>
+            <name>Map-Field</name>
+            <description></description>
+            <data>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-map-field</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>map-field</__types_id>
+            <__types_title>Map-Field</__types_title>
+            <hash>c6b611b8e9d4f478023ee112b20bef17</hash>
+            <checksum>c6b611b8e9d4f478023ee112b20bef17</checksum>
+        </field>
+        <field>
+            <id>museum-map</id>
+            <slug>museum-map</slug>
+            <type>image</type>
+            <name>Museum Map</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-museum-map</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>museum-map</__types_id>
+            <__types_title>Museum Map</__types_title>
+            <hash>42b0a90227c7765043e37d81721ca538</hash>
+            <checksum>42b0a90227c7765043e37d81721ca538</checksum>
+        </field>
+        <field>
+            <id>museum-label</id>
+            <slug>museum-label</slug>
+            <type>textfield</type>
+            <name>Museum Label</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <is_new>1</is_new>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-museum-label</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>museum-label</__types_id>
+            <__types_title>Museum Label</__types_title>
+            <hash>1b20ae623ac1221331369964fa91e773</hash>
+            <checksum>1b20ae623ac1221331369964fa91e773</checksum>
+        </field>
+        <field>
+            <id>post-body</id>
+            <slug>post-body</slug>
+            <type>wysiwyg</type>
+            <name>Post body</name>
+            <description>The main text of the post</description>
+            <data>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-post-body</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>post-body</__types_id>
+            <__types_title>Post body</__types_title>
+            <hash>95a72d3490339794d4428cf784cd4249</hash>
+            <checksum>95a72d3490339794d4428cf784cd4249</checksum>
+        </field>
+        <field>
+            <id>post-header-type</id>
+            <slug>post-header-type</slug>
+            <type>select</type>
+            <name>Post Header Type</name>
+            <description>Whether the post header is a video or a photo (photo should be 1050x600)</description>
+            <data>
+                <options>
+                    <wpcf-fields-select-option-6c580e53460485b9774d84cbfb577a9b-1>
+                        <title>Image</title>
+                        <value>image</value>
+                    </wpcf-fields-select-option-6c580e53460485b9774d84cbfb577a9b-1>
+                    <default>wpcf-fields-select-option-6c580e53460485b9774d84cbfb577a9b-1</default>
+                    <wpcf-fields-select-option-08fd7bba1f7e3b649c4d9c354a1ba6af-1>
+                        <title>Video</title>
+                        <value>video</value>
+                    </wpcf-fields-select-option-08fd7bba1f7e3b649c4d9c354a1ba6af-1>
+                </options>
+                <validate>
+                    <required>
+                        <active>1</active>
+                        <value>true</value>
+                        <message>This Field is required</message>
+                    </required>
+                </validate>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-post-header-type</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>post-header-type</__types_id>
+            <__types_title>Post Header Type</__types_title>
+            <hash>9333a4f52dd8d42726e033c91badfc5b</hash>
+            <checksum>9333a4f52dd8d42726e033c91badfc5b</checksum>
+        </field>
+        <field>
+            <id>post-header-url</id>
+            <slug>post-header-url</slug>
+            <type>url</type>
+            <name>Post Header Content URL</name>
+            <description>Video or Image URL; image should be 1050x600</description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-post-header-url</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>post-header-url</__types_id>
+            <__types_title>Post Header Content URL</__types_title>
+            <hash>1524ee00d796dc45ae47be2c0518ba99</hash>
+            <checksum>1524ee00d796dc45ae47be2c0518ba99</checksum>
+        </field>
+        <field>
+            <id>hide-in-kiosk-mode</id>
+            <slug>hide-in-kiosk-mode</slug>
+            <type>checkbox</type>
+            <name>Hide in Kiosk Mode</name>
+            <description>Mark if you want to exclude from kiosk mode</description>
+            <data>
+                <set_value>1</set_value>
+                <save_empty>no</save_empty>
+                <display>db</display>
+                <display_value_not_selected>false</display_value_not_selected>
+                <display_value_selected>true</display_value_selected>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-hide-in-kiosk-mode</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>hide-in-kiosk-mode</__types_id>
+            <__types_title>Hide in Kiosk Mode</__types_title>
+            <hash>4105fbfab4fd2f7d053571da095379ac</hash>
+            <checksum>4105fbfab4fd2f7d053571da095379ac</checksum>
+        </field>
+        <field>
+            <id>post-preview-text</id>
+            <slug>post-preview-text</slug>
+            <type>textarea</type>
+            <name>Post preview text</name>
+            <description>The text will be seen in the post preview</description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-post-preview-text</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>post-preview-text</__types_id>
+            <__types_title>Post preview text</__types_title>
+            <hash>8ad03c31ec561bead8c0a2a309e37515</hash>
+            <checksum>8ad03c31ec561bead8c0a2a309e37515</checksum>
+        </field>
+        <field>
+            <id>internationalization-message</id>
+            <slug>internationalization-message</slug>
+            <type>textfield</type>
+            <name>Internationalization Message</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-internationalization-message</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>internationalization-message</__types_id>
+            <__types_title>Internationalization Message</__types_title>
+            <hash>2e82d4632d69962a8cbe588339f4f912</hash>
+            <checksum>2e82d4632d69962a8cbe588339f4f912</checksum>
+        </field>
+        <field>
+            <id>exhibit-label</id>
+            <slug>exhibit-label</slug>
+            <type>textfield</type>
+            <name>Exhibit Label Singular</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-exhibit-label</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>exhibit-label</__types_id>
+            <__types_title>Exhibit Label Singular</__types_title>
+            <hash>aec12e688da45b699530cdf20c371abf</hash>
+            <checksum>aec12e688da45b699530cdf20c371abf</checksum>
+        </field>
+        <field>
+            <id>exhibit-label-plural</id>
+            <slug>exhibit-label-plural</slug>
+            <type>textfield</type>
+            <name>Exhibit Label Plural</name>
+            <description></description>
+            <data>
+                <repetitive>0</repetitive>
+                <conditional_display>
+                    <relation>AND</relation>
+                    <custom></custom>
+                </conditional_display>
+                <disabled_by_type>0</disabled_by_type>
+            </data>
+            <meta_key>wpcf-exhibit-label-plural</meta_key>
+            <meta_type>postmeta</meta_type>
+            <__types_id>exhibit-label-plural</__types_id>
+            <__types_title>Exhibit Label Plural</__types_title>
+            <hash>480671d985b6ad4688708c4154444583</hash>
+            <checksum>480671d985b6ad4688708c4154444583</checksum>
+        </field>
+    </fields>
+    <types>
+        <type>
+            <__types_id>museum</__types_id>
+            <__types_title>Museums</__types_title>
+            <wpcf-post-type>museum</wpcf-post-type>
+            <labels>
+                <name>Museums</name>
+                <singular_name>Museum</singular_name>
+                <add_new>Add New</add_new>
+                <add_new_item>Add New %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent text</parent_item_colon>
+                <all_items>All items</all_items>
+            </labels>
+            <slug>museum</slug>
+            <description></description>
+            <public>public</public>
+            <menu_position></menu_position>
+            <menu_icon></menu_icon>
+            <supports>
+                <title>1</title>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <hierarchical>1</hierarchical>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <post_relationship>
+                <has>
+                    <exhibit>1</exhibit>
+                </has>
+            </post_relationship>
+            <id>museum</id>
+            <hash>7f35a3f8624055b97a98da4903a253a5</hash>
+            <checksum>7f35a3f8624055b97a98da4903a253a5</checksum>
+        </type>
+        <type>
+            <__types_id>component</__types_id>
+            <__types_title>Components</__types_title>
+            <wpcf-post-type>component</wpcf-post-type>
+            <labels>
+                <name>Components</name>
+                <singular_name>Component</singular_name>
+                <add_new>Add New</add_new>
+                <add_new_item>Add New %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent text</parent_item_colon>
+                <all_items>All items</all_items>
+            </labels>
+            <slug>component</slug>
+            <description>All the components for a given exhibit</description>
+            <public>public</public>
+            <menu_position></menu_position>
+            <menu_icon></menu_icon>
+            <supports>
+                <title>1</title>
+                <author>1</author>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <hierarchical>1</hierarchical>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <post_relationship>
+                <belongs>
+                    <exhibit>1</exhibit>
+                </belongs>
+                <has>
+                    <component-post>1</component-post>
+                </has>
+            </post_relationship>
+            <id>component</id>
+            <hash>f6e0621647d52c87952e55e6a64a08e2</hash>
+            <checksum>f6e0621647d52c87952e55e6a64a08e2</checksum>
+        </type>
+        <type>
+            <__types_id>exhibit</__types_id>
+            <__types_title>Exhibits</__types_title>
+            <wpcf-post-type>exhibit</wpcf-post-type>
+            <labels>
+                <name>Exhibits</name>
+                <singular_name>Exhibit</singular_name>
+                <add_new>Add New</add_new>
+                <add_new_item>Add New %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent text</parent_item_colon>
+                <all_items>All items</all_items>
+            </labels>
+            <slug>exhibit</slug>
+            <description>A segment of the museum that contains all the components related to a specific scientific topic.</description>
+            <public>public</public>
+            <menu_position></menu_position>
+            <menu_icon></menu_icon>
+            <supports>
+                <title>1</title>
+                <author>1</author>
+                <thumbnail>1</thumbnail>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+                <feeds>1</feeds>
+                <pages>1</pages>
+            </rewrite>
+            <has_archive>1</has_archive>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <hierarchical>1</hierarchical>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <post_relationship>
+                <belongs>
+                    <museum>1</museum>
+                </belongs>
+                <has>
+                    <component>1</component>
+                </has>
+            </post_relationship>
+            <id>exhibit</id>
+            <hash>23d596edc6b0308d4154008da8a22d75</hash>
+            <checksum>23d596edc6b0308d4154008da8a22d75</checksum>
+        </type>
+        <type>
+            <__types_id>component-post</__types_id>
+            <__types_title>Posts</__types_title>
+            <wpcf-post-type>component-post</wpcf-post-type>
+            <labels>
+                <name>Posts</name>
+                <singular_name>Post</singular_name>
+                <add_new>Add New Post</add_new>
+                <add_new_item>Add New %s</add_new_item>
+                <edit_item>Edit %s</edit_item>
+                <new_item>New %s</new_item>
+                <view_item>View %s</view_item>
+                <search_items>Search %s</search_items>
+                <not_found>No %s found</not_found>
+                <not_found_in_trash>No %s found in Trash</not_found_in_trash>
+                <parent_item_colon>Parent text</parent_item_colon>
+                <all_items>All post items</all_items>
+            </labels>
+            <slug>component-post</slug>
+            <description>The \&quot;post\&quot; level of a component: big question, activity, what do I do, etc</description>
+            <public>public</public>
+            <menu_position></menu_position>
+            <menu_icon></menu_icon>
+            <taxonomies>
+                <category>1</category>
+                <post_tag>1</post_tag>
+            </taxonomies>
+            <supports>
+                <title>1</title>
+                <comments>1</comments>
+                <author>1</author>
+            </supports>
+            <rewrite>
+                <enabled>1</enabled>
+                <custom>normal</custom>
+                <slug></slug>
+                <with_front>1</with_front>
+            </rewrite>
+            <show_in_menu>1</show_in_menu>
+            <show_in_menu_page></show_in_menu_page>
+            <show_ui>1</show_ui>
+            <publicly_queryable>1</publicly_queryable>
+            <hierarchical>1</hierarchical>
+            <can_export>1</can_export>
+            <show_in_nav_menus>1</show_in_nav_menus>
+            <query_var_enabled>1</query_var_enabled>
+            <query_var></query_var>
+            <permalink_epmask>EP_PERMALINK</permalink_epmask>
+            <post_relationship>
+                <belongs>
+                    <component>1</component>
+                </belongs>
+                <has>
+                    <part>1</part>
+                </has>
+            </post_relationship>
+            <id>component-post</id>
+            <hash>b9414d02c77153656cbae32e10040c48</hash>
+            <checksum>b9414d02c77153656cbae32e10040c48</checksum>
+        </type>
+    </types>
+    <post_relationships>
+        <post_relationship>a:6:{s:9:&quot;component&quot;;a:1:{s:14:&quot;component-post&quot;;a:2:{s:14:&quot;fields_setting&quot;;s:8:&quot;specific&quot;;s:6:&quot;fields&quot;;a:9:{s:9:&quot;_wp_title&quot;;s:1:&quot;1&quot;;s:15:&quot;wpcf-post-image&quot;;s:1:&quot;1&quot;;s:14:&quot;wpcf-age-range&quot;;s:1:&quot;1&quot;;s:15:&quot;wpcf-sort-order&quot;;s:1:&quot;1&quot;;s:33:&quot;wpcf-default-social-media-message&quot;;s:1:&quot;1&quot;;s:24:&quot;wpcf-social-sharing-text&quot;;s:1:&quot;1&quot;;s:25:&quot;wpcf-social-sharing-image&quot;;s:1:&quot;1&quot;;s:22:&quot;wpcf-social-commenting&quot;;s:1:&quot;1&quot;;s:19:&quot;_wpcf_pr_taxonomies&quot;;a:1:{s:8:&quot;category&quot;;s:1:&quot;1&quot;;}}}}s:7:&quot;exhibit&quot;;a:1:{s:9:&quot;component&quot;;a:0:{}}s:6:&quot;museum&quot;;a:1:{s:7:&quot;exhibit&quot;;a:0:{}}s:14:&quot;component-post&quot;;a:1:{s:4:&quot;part&quot;;a:0:{}}s:4:&quot;part&quot;;a:0:{}s:4:&quot;post&quot;;a:0:{}}</post_relationship>
+    </post_relationships>
+</types>
